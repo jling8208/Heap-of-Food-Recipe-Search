@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": [
+    "Offline file:// loads all 188 recipes",
+    "384 independent AND/OR rule checks, including alternatives and exclusion-only negatives",
+    "Multiple selection, hash reload, detail dialog and Escape",
+    "Chinese ingredient search, recipe search, categories, sorting, reset and empty results",
+    "Card ingredient click, removable chips, all image URLs resolve",
+    "390px mobile viewport: no horizontal overflow; filter usable"
+  ],
+  "javascript_errors": [],
+  "exclude_checks": [
+    "140 require options, 51 exclude options",
+    "tag_inedible has 10 matches; absent from Require",
+    "250 independent mixed AND/OR cases",
+    "Require + Exclude intersection",
+    "Exclusion thresholds included",
+    "Chinese search, live prospective counts, chip removal",
+    "Hash reload and reset both groups",
+    "390px viewport no overflow; no JavaScript errors"
+  ]
+}
