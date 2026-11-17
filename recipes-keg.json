@@ -1,0 +1,5123 @@
+[
+  {
+    "name": "beer",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 4800,
+    "spoilageDays": 10,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": 5,
+    "hunger": 12.5,
+    "sanity": -10,
+    "cooktime": 24,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      3,
+      0
+    ],
+    "characterfood": [
+      "woodie"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_wheat"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_wheat"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Beer",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/beer.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=beer"
+  },
+  {
+    "name": "paleale",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 4800,
+    "spoilageDays": 10,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": 15,
+    "hunger": 25,
+    "sanity": -10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      5,
+      0
+    ],
+    "characterfood": [
+      "winona"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_spotspice_leaf"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_spotspice_leaf"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pale Ale",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/paleale.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=paleale"
+  },
+  {
+    "name": "mead",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": -10,
+    "hunger": 70,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      5,
+      0
+    ],
+    "characterfood": [
+      "wathgrithr"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "honey",
+          "tag_syrup"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Mead",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/mead.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=mead"
+  },
+  {
+    "name": "mandrakebeer",
+    "priority": 100,
+    "foodtype": "GOODIES",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": false,
+    "health": 150,
+    "hunger": 150,
+    "sanity": 150,
+    "cooktime": 120,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      10,
+      5
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "mandrake"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "mandrake"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Root Beer",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/mandrakebeer.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=mandrakebeer"
+  },
+  {
+    "name": "teagreen",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 4800,
+    "spoilageDays": 10,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 12,
+    "hunger": 32,
+    "sanity": 1,
+    "cooktime": 24,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      5,
+      0
+    ],
+    "characterfood": [
+      "wickerbottom"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_piko_orange"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "green_cap"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_piko_orange"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "green_cap"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Green Tea",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/teagreen.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=teagreen"
+  },
+  {
+    "name": "teared",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 4800,
+    "spoilageDays": 10,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 1,
+    "hunger": 32,
+    "sanity": 12,
+    "cooktime": 24,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      5,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_piko"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "red_cap"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_piko"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "red_cap"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Black Tea",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/teared.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=teared"
+  },
+  {
+    "name": "piraterum",
+    "priority": 1,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 9000000,
+    "spoilageDays": 18750,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": -5,
+    "hunger": 60,
+    "sanity": -33,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      1
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "durian"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "durian"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pirate Rum",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/piraterum.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=piraterum"
+  },
+  {
+    "name": "twistedtequila",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": 15,
+    "hunger": 32.5,
+    "sanity": -30,
+    "cooktime": 24,
+    "stacksize": null,
+    "pigcoinvalue": [
+      15,
+      0,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_aloe"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice_leaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_aloe"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice_leaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Twisted Tequila",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/twistedtequila.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=twistedtequila"
+  },
+  {
+    "name": "nukacola",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": false,
+    "health": -5,
+    "hunger": 12.5,
+    "sanity": 60,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      4,
+      0
+    ],
+    "characterfood": [
+      "wanda"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Nuka-Cola",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/nukacola.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola"
+  },
+  {
+    "name": "nukacola_quantum",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": -10,
+    "hunger": 20,
+    "sanity": 60,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      4,
+      1
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "wormlight_lesser",
+          "wormlight"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "wormlight_lesser"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Nuka-Cola Quantum",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/nukacola_quantum.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola_quantum"
+  },
+  {
+    "name": "nukacola_dark",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": 30,
+    "hunger": 62.5,
+    "sanity": -30,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      4,
+      2
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "nukacola"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "horrorfuel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "nukacola"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "horrorfuel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Nuka-Cola Dark",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/nukacola_dark.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola_dark"
+  },
+  {
+    "name": "nukacola_twist",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": 30,
+    "hunger": 30,
+    "sanity": 30,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      4,
+      2
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "nukacola"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "cactus_flower"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "nukacola"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "cactus_flower"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Nuka-Cola Twist",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/nukacola_twist.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola_twist"
+  },
+  {
+    "name": "nukacola_bramble",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": 40,
+    "hunger": 32.5,
+    "sanity": -15,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      4,
+      2
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "nukacola"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "cactus_meat",
+          "durian"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "nukacola"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "cactus_meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Nuka-Cola Bramble",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/nukacola_bramble.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola_bramble"
+  },
+  {
+    "name": "nukashine",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": 100,
+    "hunger": 150,
+    "sanity": -100,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      5,
+      2
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "nukacola_quantum"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ancientfruit_nightvision"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "nukacola_quantum"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ancientfruit_nightvision"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Nukashine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/nukashine.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukashine"
+  },
+  {
+    "name": "ricesake",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": -10,
+    "hunger": 32.5,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_rice"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_rice"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Sake",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/ricesake.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=ricesake"
+  },
+  {
+    "name": "coffee_mocha",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": 40,
+    "temperatureDuration": 5,
+    "debuff": true,
+    "health": -10,
+    "hunger": 33,
+    "sanity": 33,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      6,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_coffeebeans_cooked"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_chocolate"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "kyno_coffeebeans"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "kyno_coffeebeans_cooked"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "chocolate_black"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Mocha",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/coffee_mocha.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=coffee_mocha"
+  },
+  {
+    "name": "toadstoolcola",
+    "priority": 100,
+    "foodtype": "GOODIES",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": -30,
+    "hunger": 12.5,
+    "sanity": 80,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      6,
+      2
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_poison_froglegs"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_poison_froglegs"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Croak-Cola",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/toadstoolcola.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=toadstoolcola"
+  },
+  {
+    "name": "tepache",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 4800,
+    "spoilageDays": 10,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": false,
+    "health": 20,
+    "hunger": 12.5,
+    "sanity": 33,
+    "cooktime": 24,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_pineapple_halved"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_pineapple_halved"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Tepache",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/tepache.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=tepache"
+  },
+  {
+    "name": "souljuice",
+    "priority": 100,
+    "foodtype": "PREPAREDSOUL",
+    "spoilage": null,
+    "spoilageDays": null,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": 40,
+    "hunger": 100,
+    "sanity": 20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      2,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": 40,
+    "healthnaughty": 20,
+    "sanitynice": -30,
+    "sanitynaughty": 30,
+    "requires": [
+      {
+        "items": [
+          "kyno_bottle_soul"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pomegranate"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_bottle_soul"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pomegranate"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Velvet Soul",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/souljuice.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=souljuice"
+  },
+  {
+    "name": "lunartequila",
+    "priority": 100,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": 5,
+    "hunger": 12.5,
+    "sanity": 100,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      12,
+      2,
+      2
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "moon_tree_blossom"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "purebrilliance"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "moon_tree_blossom"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "purebrilliance"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Enlightened Tequila",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/lunartequila.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=lunartequila"
+  },
+  {
+    "name": "mimicmosa",
+    "priority": 100,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 19200,
+    "spoilageDays": 40,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "health": 5,
+    "hunger": 12.5,
+    "sanity": -100,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      12,
+      2,
+      2
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_pineapple_halved"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "horrorfuel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_pineapple_halved"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "horrorfuel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Sneakmosa",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/mimicmosa.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=mimicmosa"
+  },
+  {
+    "name": "wine_berries",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "berries"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "berries"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Berries Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_berries.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_berries"
+  },
+  {
+    "name": "wine_berries_juicy",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "berries_juicy"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "berries_juicy"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Juicy Berries Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_berries_juicy.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_berries_juicy"
+  },
+  {
+    "name": "wine_pomegranate",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "pomegranate"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "pomegranate"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pomegranate Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_pomegranate.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_pomegranate"
+  },
+  {
+    "name": "wine_dragonfruit",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 20,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wilson"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "dragonfruit"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "dragonfruit"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Dragon Fruit Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_dragonfruit.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_dragonfruit"
+  },
+  {
+    "name": "wine_banana",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_banana"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_banana"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Banana Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_banana.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_banana"
+  },
+  {
+    "name": "wine_cave_banana",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "cave_banana"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "cave_banana"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Cave Banana Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_cave_banana.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_cave_banana"
+  },
+  {
+    "name": "wine_durian",
+    "priority": 30,
+    "foodtype": "ALCOHOLICMONSTER",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": -5,
+    "hunger": 35,
+    "sanity": -40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wurt"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": true,
+    "monsterhealth": 5,
+    "monstersanity": 40,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "durian"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "durian"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Durian Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_durian.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_durian"
+  },
+  {
+    "name": "wine_watermelon",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "watermelon"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "watermelon"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Watermelon Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_watermelon.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_watermelon"
+  },
+  {
+    "name": "wine_fig",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "fig"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "fig"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Fig Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_fig.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_fig"
+  },
+  {
+    "name": "wine_glowberry",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": 20,
+    "hunger": 56.25,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "wormlight_lesser",
+          "wormlight"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "wormlight_lesser"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Glow Berry Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_glowberry.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_glowberry"
+  },
+  {
+    "name": "wine_nightberry",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": 0,
+    "hunger": 35,
+    "sanity": 15,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "ancientfruit_nightvision"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "ancientfruit_nightvision"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Nightberry Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_nightberry.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_nightberry"
+  },
+  {
+    "name": "wine_kokonut",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 40,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_kokonut_halved"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_kokonut_halved"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Coconut Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_kokonut.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_kokonut"
+  },
+  {
+    "name": "wine_pineapple",
+    "priority": 30,
+    "foodtype": "ALCOHOLIC",
+    "spoilage": 28800,
+    "spoilageDays": 60,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 25,
+    "sanity": 20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_pineapple_halved"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_pineapple_halved"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pineapple Wine",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wine_pineapple.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_pineapple"
+  },
+  {
+    "name": "juice_carrot",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "carrot"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "carrot"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Carrot Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_carrot.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_carrot"
+  },
+  {
+    "name": "juice_corn",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "corn"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "corn"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Corn Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_corn.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_corn"
+  },
+  {
+    "name": "juice_eggplant",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 25,
+    "hunger": 35,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "eggplant"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "eggplant"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Eggplant Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_eggplant.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_eggplant"
+  },
+  {
+    "name": "juice_pumpkin",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 30,
+    "hunger": 30,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "pumpkin"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "pumpkin"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pumpkin Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_pumpkin.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_pumpkin"
+  },
+  {
+    "name": "juice_garlic",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 30,
+    "hunger": 25,
+    "sanity": -5,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "garlic"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "garlic"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Garlic Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_garlic.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_garlic"
+  },
+  {
+    "name": "juice_onion",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 25,
+    "sanity": -20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "onion"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "onion"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Onion Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_onion.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_onion"
+  },
+  {
+    "name": "juice_pepper",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": 40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 30,
+    "hunger": 45,
+    "sanity": -20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pepper Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_pepper.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_pepper"
+  },
+  {
+    "name": "juice_tomato",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 50,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "tomato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "tomato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Toma Root Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_tomato.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_tomato"
+  },
+  {
+    "name": "juice_potato",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 30,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "potato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "potato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Potato Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_potato.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_potato"
+  },
+  {
+    "name": "juice_asparagus",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 45,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "asparagus"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "asparagus"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Asparagus Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_asparagus.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_asparagus"
+  },
+  {
+    "name": "juice_aloe",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 25,
+    "hunger": 56.25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_aloe"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_aloe"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aloe Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_aloe.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_aloe"
+  },
+  {
+    "name": "juice_radish",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 25,
+    "hunger": 35,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_radish"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_radish"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Radish Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_radish.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_radish"
+  },
+  {
+    "name": "juice_fennel",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 35,
+    "hunger": 70,
+    "sanity": -20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_fennel"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_fennel"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Fennel Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_fennel.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_fennel"
+  },
+  {
+    "name": "juice_cucumber",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 30,
+    "hunger": 30,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_cucumber"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_cucumber"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Sea Cucumber Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_cucumber.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_cucumber"
+  },
+  {
+    "name": "juice_sweetpotato",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_sweetpotato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sweetpotato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Sweet Potato Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_sweetpotato.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_sweetpotato"
+  },
+  {
+    "name": "juice_parznip",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 20,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_parznip",
+          "kyno_parznip_eaten"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_parznip"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Parsnip Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_parznip.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_parznip"
+  },
+  {
+    "name": "juice_turnip",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 20,
+    "hunger": 70,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_turnip"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_turnip"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Turnip Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_turnip.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_turnip"
+  },
+  {
+    "name": "juice_kelp",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 35,
+    "hunger": 65,
+    "sanity": -20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kelp"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kelp"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Kelp Fronds Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_kelp.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_kelp"
+  },
+  {
+    "name": "juice_seaweeds",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_seaweeds"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_seaweeds"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Seaweed Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_seaweeds.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_seaweeds"
+  },
+  {
+    "name": "juice_avocado",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 20,
+    "hunger": 45,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "rock_avocado_fruit_ripe"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "rock_avocado_fruit_ripe"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Stone Fruit Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_avocado.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_avocado"
+  },
+  {
+    "name": "juice_lichen",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 30,
+    "hunger": 20,
+    "sanity": -15,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "cutlichen"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "cutlichen"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Lichen Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_lichen.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_lichen"
+  },
+  {
+    "name": "juice_lotus",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 60,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_lotus_flower"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_lotus_flower"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Lotus Root Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_lotus.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_lotus"
+  },
+  {
+    "name": "juice_taroroot",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_taroroot"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_taroroot"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Taro Root Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_taroroot.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_taroroot"
+  },
+  {
+    "name": "juice_waterycress",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 35,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_waterycress"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_waterycress"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Watercress Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_waterycress.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_waterycress"
+  },
+  {
+    "name": "juice_cactus",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 56.25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "cactus_meat",
+          "cactus_flower"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "cactus_meat"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Cactus Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_cactus.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_cactus"
+  },
+  {
+    "name": "juice_redcap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 30,
+    "hunger": 56.25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "red_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "red_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Red Cap Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_redcap.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_redcap"
+  },
+  {
+    "name": "juice_greencap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "green_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "green_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Green Cap Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_greencap.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_greencap"
+  },
+  {
+    "name": "juice_bluecap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 40,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "blue_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "blue_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Blue Cap Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_bluecap.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_bluecap"
+  },
+  {
+    "name": "juice_mooncap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "health": 30,
+    "hunger": 30,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "moon_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "moon_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Moon Shroom Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_mooncap.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_mooncap"
+  },
+  {
+    "name": "juice_whitecap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 25,
+    "hunger": 62.5,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_white_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_white_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Champignon Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_whitecap.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_whitecap"
+  },
+  {
+    "name": "juice_truffles",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 5,
+    "hunger": 56.25,
+    "sanity": 5,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_truffles"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_truffles"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Truffles Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_truffles.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_truffles"
+  },
+  {
+    "name": "juice_sporecap",
+    "priority": 30,
+    "foodtype": "MONSTER",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": -10,
+    "hunger": 62.5,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": true,
+    "monsterhealth": 10,
+    "monstersanity": 10,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_sporecap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sporecap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Blight Cap Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_sporecap.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_sporecap"
+  },
+  {
+    "name": "juice_sporecap_dark",
+    "priority": 30,
+    "foodtype": "MONSTER",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": -20,
+    "hunger": 62.5,
+    "sanity": -20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": true,
+    "monsterhealth": 20,
+    "monstersanity": 20,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_sporecap_dark"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sporecap_dark"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Noxious Cap Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_sporecap_dark.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_sporecap_dark"
+  },
+  {
+    "name": "juice_cavetuber",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": -25,
+    "hunger": 62.5,
+    "sanity": 50,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_cavetuber"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_cavetuber"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Cave Tuber Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_cavetuber.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_cavetuber"
+  },
+  {
+    "name": "juice_cavetuber_blooming",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "spoilageDays": 15,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 60,
+    "hunger": 56.25,
+    "sanity": 20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_cavetuber_blooming"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_cavetuber_blooming"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Blooming Cave Tuber Juice",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/juice_cavetuber_blooming.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_cavetuber_blooming"
+  },
+  {
+    "name": "wetgoop2",
+    "priority": -2,
+    "foodtype": "GENERIC",
+    "spoilage": null,
+    "spoilageDays": null,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 0,
+    "hunger": 0,
+    "sanity": 0,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      0,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "healthnice": null,
+    "healthnaughty": null,
+    "sanitynice": null,
+    "sanitynaughty": null,
+    "requires": [],
+    "excluded": [],
+    "card_def": [],
+    "invalid": true,
+    "display_name": "Sludge",
+    "station": "keg",
+    "image": "assets/foods_cookpot_keg/wetgoop2.png",
+    "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wetgoop2"
+  }
+]

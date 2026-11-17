@@ -1,0 +1,2359 @@
+[
+  {
+    "name": "musselbouillabaise",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 60,
+    "hunger": 37.5,
+    "sanity": 15,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_mussel"
+        ],
+        "amount": 3,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "tag_veggie"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "kyno_mussel_cooked"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "kyno_mussel"
+        ],
+        "amount": 3,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "carrot"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Mussel Bouillabaise",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/musselbouillabaise.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=musselbouillabaise",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "sweetpotatosouffle",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 19200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 20,
+    "hunger": 56.25,
+    "sanity": 15,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_sweetpotato"
+        ],
+        "amount": 2,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "tag_egg"
+        ],
+        "amount": 2,
+        "comparator": "morethan"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "kyno_sweetpotato_cooked"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sweetpotato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "bird_egg"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Sweet Potato Souffle",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/sweetpotatosouffle.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=sweetpotatosouffle",
+    "spoilageDays": 40.0
+  },
+  {
+    "name": "gorge_meat_stew",
+    "priority": 35,
+    "foodtype": "MEAT",
+    "spoilage": 7200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 15,
+    "hunger": 200,
+    "sanity": 10,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_meat"
+        ],
+        "amount": 3,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "tag_monster"
+        ],
+        "amount": 1,
+        "comparator": "morethan"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "meat"
+        ],
+        "amount": 3,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Super Meaty Stew",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/gorge_meat_stew.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=gorge_meat_stew",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "gorge_cheeseburger",
+    "priority": 35,
+    "foodtype": "MEAT",
+    "spoilage": 3840,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 60,
+    "hunger": 100,
+    "sanity": 33,
+    "cooktime": 1.2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      0,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_bread"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_foliage"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_cheese",
+          "tag_dairy"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "kyno_bacon",
+          "kyno_bacon_cooked"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "bread"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "foliage"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Cheeseburger",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/gorge_cheeseburger.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=gorge_cheeseburger",
+    "spoilageDays": 8.0
+  },
+  {
+    "name": "gorge_pizza",
+    "priority": 35,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 40,
+    "hunger": 150,
+    "sanity": 20,
+    "cooktime": 2.5,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      0,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_dairy"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tomato"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tomato"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Pizza",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/gorge_pizza.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=gorge_pizza",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "gorge_meat_wellington",
+    "priority": 35,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 20,
+    "hunger": 150,
+    "sanity": 10,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      0,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_meat"
+        ],
+        "amount": 2,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "tag_bread"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_veggie"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "tag_monster"
+        ],
+        "amount": 1,
+        "comparator": "morethan"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "meat"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "bread"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "carrot"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Meat Wellington",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/gorge_meat_wellington.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=gorge_meat_wellington",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "gorge_trifle",
+    "priority": 35,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 15,
+    "hunger": 37.5,
+    "sanity": 60,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      2,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_fruit"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_dairy"
+        ],
+        "amount": 2,
+        "comparator": "morethan"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "berries"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Trifle",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/gorge_trifle.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=gorge_trifle",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "bubbletea",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 2880,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": true,
+    "nospice": false,
+    "health": 20,
+    "hunger": 12.5,
+    "sanity": 33,
+    "cooktime": 0.5,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      2,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_piko"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_piko"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Bubble Tea",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/bubbletea.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=bubbletea",
+    "spoilageDays": 6.0
+  },
+  {
+    "name": "frenchonionsoup",
+    "priority": 5,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 40,
+    "hunger": 37.5,
+    "sanity": 5,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_veggie"
+        ],
+        "amount": 3,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "onion"
+        ],
+        "amount": 2,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "foliage"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "carrot"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "onion"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "foliage"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "French Onion Soup",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/frenchonionsoup.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=frenchonionsoup",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jellybean_sanity",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": null,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "nospice": false,
+    "health": 2,
+    "hunger": 0,
+    "sanity": 5,
+    "cooktime": 2.5,
+    "stacksize": 3,
+    "pigcoinvalue": [
+      8,
+      3,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "royal_jelly"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "green_cap"
+        ],
+        "amount": 3,
+        "comparator": "morethan"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "royal_jelly"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "green_cap"
+        ],
+        "amount": 3,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Mint Jellybeans",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/jellybean_sanity.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=jellybean_sanity",
+    "spoilageDays": null
+  },
+  {
+    "name": "jellybean_hunger",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": null,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "nospice": false,
+    "health": 2,
+    "hunger": 5,
+    "sanity": 0,
+    "cooktime": 2.5,
+    "stacksize": 3,
+    "pigcoinvalue": [
+      8,
+      3,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "royal_jelly"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_butter"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "tag_inedible"
+        ],
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_monster"
+        ],
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sugar"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "royal_jelly"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "butter"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Creamy Jellybeans",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/jellybean_hunger.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=jellybean_hunger",
+    "spoilageDays": null
+  },
+  {
+    "name": "jellybean_super",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": null,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "nospice": false,
+    "health": 2,
+    "hunger": 2,
+    "sanity": 2,
+    "cooktime": 2.5,
+    "stacksize": 3,
+    "pigcoinvalue": [
+      8,
+      3,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "royal_jelly"
+        ],
+        "amount": 2,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "dragonfruit"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pomegranate"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "royal_jelly"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "dragonfruit"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pomegranate"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Lusty Jellybeans",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/jellybean_super.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=jellybean_super",
+    "spoilageDays": null
+  },
+  {
+    "name": "berrysundae",
+    "priority": 10,
+    "foodtype": "GOODIES",
+    "spoilage": 2880,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "nospice": false,
+    "health": 20,
+    "hunger": 8,
+    "sanity": 60,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      6,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_berries"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_dairy"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "berries"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Sundae",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/berrysundae.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=berrysundae",
+    "spoilageDays": 6.0
+  },
+  {
+    "name": "cinnamonroll",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 2880,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 60,
+    "hunger": 56.25,
+    "sanity": 25,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_butter"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "butter"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Cinnamon Roll",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/cinnamonroll.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=cinnamonroll",
+    "spoilageDays": 6.0
+  },
+  {
+    "name": "milkshake_prismatic",
+    "priority": 10,
+    "foodtype": "GOODIES",
+    "spoilage": 2880,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "nospice": false,
+    "health": 60,
+    "hunger": 12.5,
+    "sanity": 60,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      7,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_jellyfish_rainbow_dead"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_milk"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_jellyfish_rainbow_dead"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Prismatic Punch",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/milkshake_prismatic.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=milkshake_prismatic",
+    "spoilageDays": 6.0
+  },
+  {
+    "name": "nachos",
+    "priority": 35,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 40,
+    "hunger": 32.5,
+    "sanity": 10,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      2,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_oil"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_cheese"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "corn"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_oil"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "cheese_yellow"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "corn"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Nachos",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/nachos.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=nachos",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "tom_kha_soup",
+    "priority": 35,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": 40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "nospice": false,
+    "health": 5,
+    "hunger": 56.25,
+    "sanity": 33,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      2,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_kokonut_halved"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_mushroom"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_succulent"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_kokonut_halved"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "red_cap"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "succulent_picked"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Tom Kha Soup",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/tom_kha_soup.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=tom_kha_soup",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "risotto",
+    "priority": 35,
+    "foodtype": "VEGGIE",
+    "spoilage": 7200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": 33,
+    "hunger": 75,
+    "sanity": 25,
+    "cooktime": 1.7,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_rice"
+        ],
+        "amount": 2,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "kyno_white_cap"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_dairy"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_rice"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_white_cap"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Risotto",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/risotto.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=risotto",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "meatskillet",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 7200,
+    "temperature": 40,
+    "temperatureDuration": 240,
+    "debuff": false,
+    "nospice": false,
+    "health": -5,
+    "hunger": 62.5,
+    "sanity": 15,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      2,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "garlic"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "garlic"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Steak Stir Fry",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/meatskillet.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=meatskillet",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "warlyicedtea",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 4800,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": false,
+    "nospice": false,
+    "health": 20,
+    "hunger": 12.5,
+    "sanity": 5,
+    "cooktime": 0.5,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_piko_orange"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_piko_orange"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "ice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Glacé Thé de Maman",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/warlyicedtea.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=warlyicedtea",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "warlytea",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 4800,
+    "temperature": 40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "nospice": false,
+    "health": 40,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 0.5,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_piko_orange"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "ice"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "kyno_piko_orange"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_tealeaf"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Thé de Maman",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/warlytea.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=warlytea",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "lazydessert",
+    "priority": 1,
+    "foodtype": "ELEMENTAL",
+    "spoilage": null,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "nospice": true,
+    "health": -30,
+    "hunger": 12.5,
+    "sanity": 0,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      1,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "townportaltalisman"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "rocks"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "townportaltalisman"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "rocks"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "The Lazy Dessert",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/lazydessert.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=lazydessert",
+    "spoilageDays": null
+  },
+  {
+    "name": "lavaeeggboiled",
+    "priority": 100,
+    "foodtype": "MEAT",
+    "spoilage": 7200,
+    "temperature": 40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "nospice": false,
+    "health": 60,
+    "hunger": 100,
+    "sanity": 15,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      6,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "lavae_egg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_fireweed"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "ice"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "lavae_egg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "firenettles"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Lava Boiled Egg",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/lavaeeggboiled.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=lavaeeggboiled",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "tiramisu",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "nospice": true,
+    "health": 20,
+    "hunger": 32.5,
+    "sanity": 15,
+    "cooktime": 1.5,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      8,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_coffeebeans_cooked"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_chocolate"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_dairy"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "kyno_coffeebeans"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "kyno_coffeebeans_cooked"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "chocolate_black"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Tirameesu",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/tiramisu.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=tiramisu",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "mandrakebaobuns",
+    "priority": 1,
+    "foodtype": "MEAT",
+    "spoilage": 19200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "nospice": false,
+    "health": 25,
+    "hunger": 175,
+    "sanity": 120,
+    "cooktime": 3.5,
+    "stacksize": null,
+    "pigcoinvalue": [
+      15,
+      5,
+      2
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "mandrake"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_meat"
+        ],
+        "amount": 1,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "kyno_cavetuber_blooming"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "mandrake"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_cavetuber_blooming"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Steamed Mandrake Bao",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/mandrakebaobuns.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=mandrakebaobuns",
+    "spoilageDays": 40.0
+  },
+  {
+    "name": "brownie",
+    "priority": 35,
+    "foodtype": "GOODIES",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "nospice": false,
+    "health": -10,
+    "hunger": 32.5,
+    "sanity": 100,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      4,
+      2
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_chocolate"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_dairy"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "chocolate_black"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_sugar"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Brownie",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/brownie.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=brownie",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "bbqribs",
+    "priority": 35,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "nospice": false,
+    "health": 60,
+    "hunger": 75,
+    "sanity": 33,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      3,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "tag_meat"
+        ],
+        "amount": 2,
+        "comparator": "morethan"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "tag_fish"
+        ],
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_monster"
+        ],
+        "amount": 1,
+        "comparator": "morethan"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "meat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "monstermeat"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_syrup"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Pork Ribs",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/bbqribs.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=bbqribs",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "swordfishbluedinner",
+    "priority": 35,
+    "foodtype": "MEAT",
+    "spoilage": 3840,
+    "temperature": -40,
+    "temperatureDuration": 240,
+    "debuff": true,
+    "nospice": false,
+    "health": 40,
+    "hunger": 75,
+    "sanity": 25,
+    "cooktime": 2,
+    "stacksize": null,
+    "pigcoinvalue": [
+      2,
+      10,
+      1
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_swordfish_blue"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_iceweed"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_rice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_swordfish_blue"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_icenettles"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_flour"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_rice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Chilled Bento",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/swordfishbluedinner.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=swordfishbluedinner",
+    "spoilageDays": 8.0
+  },
+  {
+    "name": "opalpreciouslollipop",
+    "priority": 35,
+    "foodtype": "GOODIES",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "nospice": true,
+    "health": 40,
+    "hunger": 32.5,
+    "sanity": 15,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      10,
+      7,
+      3
+    ],
+    "characterfood": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_opalpreciouspowder"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "nightmarefuel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "twigs"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_opalpreciouspowder"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "nightmarefuel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "twigs"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "display_name": "Shimmer Lollipop",
+    "station": "warly",
+    "image": "assets/foods_cookpot_warly/opalpreciouslollipop.png",
+    "source_url": "https://heap-of-foods.com/recipes_warly?recipe=opalpreciouslollipop",
+    "spoilageDays": 20.0
+  }
+]

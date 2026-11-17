@@ -1,0 +1,6870 @@
+[
+  {
+    "name": "mayonnaise",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 7200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 10,
+    "hunger": 12.5,
+    "sanity": 15,
+    "cooktime": 24,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      3,
+      1
+    ],
+    "characterfood": [
+      "webber"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "tag_egg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_oil"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [
+      {
+        "items": [
+          "tag_chickenegg"
+        ],
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tallbirdegg"
+        ],
+        "comparator": "equal"
+      }
+    ],
+    "card_def": [
+      {
+        "items": [
+          "bird_egg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_oil"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Mayonnaise",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/mayonnaise.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=mayonnaise",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "mayonnaise_chicken",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 7200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 0,
+    "hunger": 25,
+    "sanity": 25,
+    "cooktime": 24,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      3,
+      1
+    ],
+    "characterfood": [
+      "walter"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "tag_chickenegg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_oil"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_chicken_egg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_oil"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Chicken Mayonnaise",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/mayonnaise_chicken.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=mayonnaise_chicken",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "mayonnaise_tallbird",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 7200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 30,
+    "hunger": 12.5,
+    "sanity": 5,
+    "cooktime": 24,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      5,
+      1
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "tallbirdegg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_oil"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "tallbirdegg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_oil"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Tallbird Mayonnaise",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/mayonnaise_tallbird.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=mayonnaise_tallbird",
+    "spoilageDays": 15.0
+  },
+  {
+    "name": "mayonnaise_nightmare",
+    "priority": 35,
+    "foodtype": "GOODIES",
+    "spoilage": 19200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 30,
+    "hunger": 62.5,
+    "sanity": -5,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      4,
+      1
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "tag_egg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "nightmarefuel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "bird_egg"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "nightmarefuel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Void Mayonnaise",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/mayonnaise_nightmare.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=mayonnaise_nightmare",
+    "spoilageDays": 40.0
+  },
+  {
+    "name": "tartarsauce",
+    "priority": 30,
+    "foodtype": "GOODIES",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      3,
+      1
+    ],
+    "characterfood": [
+      "wes"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "tag_mayonnaise"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_cucumber"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "mayonnaise"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_cucumber"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Tartar Sauce",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/tartarsauce.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=tartarsauce",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "butter_beefalo",
+    "priority": 30,
+    "foodtype": "GENERIC",
+    "spoilage": 19200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 0,
+    "hunger": 25,
+    "sanity": 40,
+    "cooktime": 96,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_milk_beefalo"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_milk_beefalo"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Beefalo Butter",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/butter_beefalo.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=butter_beefalo",
+    "spoilageDays": 40.0
+  },
+  {
+    "name": "butter_koalefant",
+    "priority": 30,
+    "foodtype": "GENERIC",
+    "spoilage": 19200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 25,
+    "sanity": 20,
+    "cooktime": 96,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_milk_koalefant"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_milk_koalefant"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Koalefant Butter",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/butter_koalefant.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=butter_koalefant",
+    "spoilageDays": 40.0
+  },
+  {
+    "name": "butter_goat",
+    "priority": 30,
+    "foodtype": "GENERIC",
+    "spoilage": 19200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 25,
+    "hunger": 40,
+    "sanity": 0,
+    "cooktime": 96,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "goatmilk"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Volt Goat Butter",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/butter_goat.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=butter_goat",
+    "spoilageDays": 40.0
+  },
+  {
+    "name": "truffleoil",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 19200,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": -10,
+    "hunger": 12.5,
+    "sanity": -20,
+    "cooktime": 24,
+    "stacksize": 2,
+    "pigcoinvalue": [
+      3,
+      2,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_truffles"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "seeds"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_truffles"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "seeds"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Truffles Oil",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/truffleoil.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=truffleoil",
+    "spoilageDays": 40.0
+  },
+  {
+    "name": "agedroe_oceanfish_sturgeon",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 20,
+    "hunger": 37.5,
+    "sanity": 33,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      1,
+      1
+    ],
+    "characterfood": [
+      "waxwell"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_sturgeon"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_sturgeon"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Caviar",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_sturgeon.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_sturgeon",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "jelly_berries",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "berries"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "berries"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Berries Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_berries.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_berries",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_berries_juicy",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "berries_juicy"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "berries_juicy"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Juicy Berries Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_berries_juicy.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_berries_juicy",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_pomegranate",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 30,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wortox"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "pomegranate"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "pomegranate"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pomegranate Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_pomegranate.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_pomegranate",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_dragonfruit",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 56.25,
+    "sanity": 40,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "dragonfruit"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "dragonfruit"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Dragon Fruit Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_dragonfruit.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_dragonfruit",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_banana",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 33,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wonkey"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_banana"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_banana"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Banana Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_banana.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_banana",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_cave_banana",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 25,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wonkey"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "cave_banana"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "cave_banana"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Cave Banana Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_cave_banana.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_cave_banana",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_durian",
+    "priority": 30,
+    "foodtype": "MONSTER",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": -5,
+    "hunger": 35,
+    "sanity": -20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wurt"
+    ],
+    "mermfood": true,
+    "mermhealth": 5,
+    "mermhunger": null,
+    "mermsanity": 20,
+    "monsterfood": true,
+    "monsterhealth": 5,
+    "monstersanity": 20,
+    "requires": [
+      {
+        "items": [
+          "durian"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "durian"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Durian Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_durian.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_durian",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_watermelon",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 35,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "watermelon"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "watermelon"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Watermelon Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_watermelon.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_watermelon",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_fig",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 25,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wendy"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "fig"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "fig"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Fig Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_fig.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_fig",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_glowberry",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 20,
+    "hunger": 56.25,
+    "sanity": -10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "wormlight_lesser",
+          "wormlight"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "wormlight_lesser"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Glowberry Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_glowberry.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_glowberry",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_nightberry",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 0,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "ancientfruit_nightvision"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "ancientfruit_nightvision"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Nightberry Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_nightberry.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_nightberry",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_kokonut",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 33,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wormwood"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_kokonut_halved"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_kokonut_halved"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Coconut Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_kokonut.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_kokonut",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "jelly_pineapple",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 4800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 33,
+    "hunger": 25,
+    "sanity": 15,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_pineapple_halved"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_sweetener"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_pineapple_halved"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "honey"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pineapple Jam",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/jelly_pineapple.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_pineapple",
+    "spoilageDays": 10.0
+  },
+  {
+    "name": "pickles_cucumber",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_cucumber"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_cucumber"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickles",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_cucumber.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_cucumber",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_carrot",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 30,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "carrot"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "carrot"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Carrot",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_carrot.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_carrot",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_corn",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 25,
+    "hunger": 35,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "corn"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "corn"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Corn",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_corn.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_corn",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_eggplant",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 35,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "eggplant"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "eggplant"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Eggplant",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_eggplant.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_eggplant",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_pumpkin",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 50,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "pumpkin"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "pumpkin"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Pumpkin",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_pumpkin.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_pumpkin",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_garlic",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 30,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "garlic"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "garlic"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Garlic",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_garlic.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_garlic",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_onion",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 25,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "onion"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "onion"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Onion",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_onion.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_onion",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_pepper",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": 40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 25,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": [
+      "willow"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "pepper"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Pepper",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_pepper.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_pepper",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_tomato",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 40,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "tomato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "tomato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Toma Root",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_tomato.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_tomato",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_potato",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 70,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": [
+      "wolfgang"
+    ],
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "potato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "potato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Potato",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_potato.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_potato",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_asparagus",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "asparagus"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "asparagus"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Asparagus",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_asparagus.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_asparagus",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_aloe",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_aloe"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_aloe"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Aloe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_aloe.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_aloe",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_radish",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_radish"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_radish"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Radish",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_radish.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_radish",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_fennel",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 56.25,
+    "sanity": -15,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_fennel"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_fennel"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Fennel",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_fennel.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_fennel",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_sweetpotato",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 25,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_sweetpotato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sweetpotato"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Sweet Potato",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_sweetpotato.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_sweetpotato",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_parznip",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 75,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_parznip",
+          "kyno_parznip_eaten"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_parznip"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Parsnip",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_parznip.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_parznip",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_turnip",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 40,
+    "hunger": 32.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_turnip"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_turnip"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Turnip",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_turnip.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_turnip",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_rice",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_rice"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_rice"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Rice",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_rice.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_rice",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_kelp",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 25,
+    "hunger": 20,
+    "sanity": -5,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kelp"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kelp"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Kelp Fronds",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_kelp.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_kelp",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_seaweeds",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_seaweeds"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_seaweeds"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Seaweed",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_seaweeds.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_seaweeds",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_avocado",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 35,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "rock_avocado_fruit_ripe"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "rock_avocado_fruit_ripe"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Stone Fruit",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_avocado.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_avocado",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_lichen",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 15,
+    "sanity": -15,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "cutlichen"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "cutlichen"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Lichen",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_lichen.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_lichen",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_lotus",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 33,
+    "hunger": 33,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_lotus_flower"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_lotus_flower"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Lotus Root",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_lotus.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_lotus",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_taroroot",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 40,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_taroroot"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_taroroot"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Taro Root",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_taroroot.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_taroroot",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_waterycress",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 56.25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_waterycress"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_waterycress"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Watercress",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_waterycress.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_waterycress",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_cactus",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 50,
+    "hunger": 25,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "cactus_meat",
+          "cactus_flower"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "cactus_meat"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Cactus",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_cactus.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_cactus",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_redcap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 62.5,
+    "sanity": -15,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "red_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "red_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Red Cap",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_redcap.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_redcap",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_greencap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 56.25,
+    "sanity": -10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "green_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "green_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Green Cap",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_greencap.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_greencap",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_bluecap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 20,
+    "sanity": -5,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "blue_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "blue_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Blue Cap",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_bluecap.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_bluecap",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_mooncap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 25,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "moon_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "moon_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Moon Shroom",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_mooncap.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_mooncap",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_whitecap",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      3,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_white_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_white_cap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Champignon",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_whitecap.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_whitecap",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_truffles",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 25,
+    "hunger": 62.5,
+    "sanity": 33,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_truffles"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_truffles"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Truffles",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_truffles.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_truffles",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_sporecap",
+    "priority": 30,
+    "foodtype": "MONSTER",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": -20,
+    "hunger": 56.25,
+    "sanity": -20,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": true,
+    "monsterhealth": 20,
+    "monstersanity": 20,
+    "requires": [
+      {
+        "items": [
+          "kyno_sporecap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sporecap"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Blight Cap",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_sporecap.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_sporecap",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_sporecap_dark",
+    "priority": 30,
+    "foodtype": "MONSTER",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": -30,
+    "hunger": 55,
+    "sanity": -30,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": true,
+    "monsterhealth": 30,
+    "monstersanity": 30,
+    "requires": [
+      {
+        "items": [
+          "kyno_sporecap_dark"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_sporecap_dark"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Noxious Cap",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_sporecap_dark.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_sporecap_dark",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_cavetuber",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": -20,
+    "hunger": 100,
+    "sanity": 10,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_cavetuber"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_cavetuber"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Cave Tuber",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_cavetuber.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_cavetuber",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "pickles_cavetuber_blooming",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 28800,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 60,
+    "hunger": 75,
+    "sanity": 25,
+    "cooktime": 72,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_cavetuber_blooming"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_cavetuber_blooming"
+        ],
+        "amount": 2,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Pickled Blooming Cave Tuber",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/pickles_cavetuber_blooming.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_cavetuber_blooming",
+    "spoilageDays": 60.0
+  },
+  {
+    "name": "agedroe_pondfish",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 5,
+    "hunger": 15,
+    "sanity": 5,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_pondfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_pondfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Freshwater Fish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_pondfish.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_pondfish",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_pondeel",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 20,
+    "sanity": 15,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_pondeel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_pondeel"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Eel Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_pondeel.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_pondeel",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_wobster",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 25,
+    "sanity": 5,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_wobster"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_wobster"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Wobster Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_wobster.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_wobster",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_wobster_moonglass",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 30,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_wobster_moonglass"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_wobster_moonglass"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Lunar Wobster Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_wobster_moonglass.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_wobster_moonglass",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_wobster_monkeyisland",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 30,
+    "sanity": 30,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_wobster_monkeyisland"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_wobster_monkeyisland"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Hermit Wobster Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_wobster_monkeyisland.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_wobster_monkeyisland",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_1",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 5,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_1"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_1"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Runty Guppy Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_1.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_1",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_2",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 5,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_2"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_2"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Needlenosed Squirt Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_2.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_2",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_3",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 5,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_3"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_3"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Bitty Baitfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_3.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_3",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_4",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 5,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_4"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_4"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Smolt Fry Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_4.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_4",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_5",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_5"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_5"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Popperfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_5.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_5",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_6",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 20,
+    "hunger": 10,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_6"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_6"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Fallounder Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_6.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_6",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_7",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 10,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_7"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_7"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Bloomfin Tuna Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_7.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_7",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_8",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": 40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 20,
+    "hunger": 20,
+    "sanity": 5,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_8"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_8"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Scorching Sunfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_8.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_8",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_small_9",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 20,
+    "sanity": 5,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_9"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_small_9"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Spittlefish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_small_9.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_small_9",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_pufferfish",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 15,
+    "hunger": 25,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_pufferfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_pufferfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Pufferfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_pufferfish.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_pufferfish",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_1",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 15,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_1"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_1"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Mudfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_1.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_1",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_2",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 30,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_2"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_2"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Deep Bass Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_2.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_2",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_3",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 10,
+    "sanity": 30,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_3"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_3"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Dandy Lionfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_3.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_3",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_4",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 30,
+    "sanity": 15,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_4"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_4"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Black Catfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_4.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_4",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_5",
+    "priority": 30,
+    "foodtype": "VEGGIE",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 30,
+    "sanity": 15,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_5"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_5"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Corn Cod Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_5.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_5",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_6",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 15,
+    "sanity": 20,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_6"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_6"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Dappled Koi Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_6.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_6",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_7",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 30,
+    "hunger": 20,
+    "sanity": 15,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_7"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_7"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Golden Koi Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_7.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_7",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_8",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 20,
+    "hunger": 15,
+    "sanity": 30,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_8"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_8"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Ice Bream Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_8.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_8",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_medium_9",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 20,
+    "sanity": 30,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      6,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_9"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_medium_9"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Sweetish Fish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_medium_9.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_medium_9",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_glass_carp",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": -25,
+    "hunger": 32.5,
+    "sanity": 50,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      3,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_glass_carp"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_glass_carp"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Glassed Carp Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_glass_carp.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_glass_carp",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_oceanfish_midnight_carp",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 40,
+    "hunger": 25,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      8,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_midnight_carp"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_oceanfish_midnight_carp"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Midnight Carp Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_oceanfish_midnight_carp.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_midnight_carp",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_tropicalfish",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 15,
+    "sanity": 15,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_tropicalfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_tropicalfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Tropical Fish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_tropicalfish.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_tropicalfish",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_pierrotfish",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 15,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_pierrotfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_pierrotfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Pierrot Fish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_pierrotfish.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_pierrotfish",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_neonfish",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 25,
+    "hunger": 20,
+    "sanity": 10,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_neonfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_neonfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Neon Quatro Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_neonfish.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_neonfish",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_grouper",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 20,
+    "sanity": 25,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_grouper"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_grouper"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Purple Grouper Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_grouper.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_grouper",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_koi",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 20,
+    "sanity": 25,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_koi"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_koi"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Tropical Koi Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_koi.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_koi",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_salmonfish",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 10,
+    "hunger": 15,
+    "sanity": 15,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_salmonfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_salmonfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Salmon Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_salmonfish.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_salmonfish",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_jellyfish",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 15,
+    "hunger": 15,
+    "sanity": 0,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      4,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_jellyfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_jellyfish"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Jellyfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_jellyfish.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_jellyfish",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_jellyfish_rainbow",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": true,
+    "health": 15,
+    "hunger": 15,
+    "sanity": 15,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      5,
+      1,
+      1
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_jellyfish_rainbow"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_jellyfish_rainbow"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Rainbow Jellyfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_jellyfish_rainbow.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_jellyfish_rainbow",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "agedroe_swordfish_blue",
+    "priority": 30,
+    "foodtype": "MEAT",
+    "spoilage": 9600,
+    "temperature": -40,
+    "temperatureDuration": 10,
+    "debuff": false,
+    "health": 20,
+    "hunger": 25,
+    "sanity": 25,
+    "cooktime": 48,
+    "stacksize": null,
+    "pigcoinvalue": [
+      7,
+      1,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [
+      {
+        "items": [
+          "kyno_roe_swordfish_blue"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "tag_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "excluded": [],
+    "card_def": [
+      {
+        "items": [
+          "kyno_roe_swordfish_blue"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_spotspice"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      },
+      {
+        "items": [
+          "kyno_salt"
+        ],
+        "amount": 1,
+        "comparator": "equal"
+      }
+    ],
+    "invalid": null,
+    "display_name": "Aged Chilled Swordfish Roe",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/agedroe_swordfish_blue.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_swordfish_blue",
+    "spoilageDays": 20.0
+  },
+  {
+    "name": "wetgoop2",
+    "priority": -2,
+    "foodtype": "GENERIC",
+    "spoilage": null,
+    "temperature": null,
+    "temperatureDuration": null,
+    "debuff": false,
+    "health": 0,
+    "hunger": 0,
+    "sanity": 0,
+    "cooktime": 1,
+    "stacksize": null,
+    "pigcoinvalue": [
+      0,
+      0,
+      0
+    ],
+    "characterfood": null,
+    "mermfood": null,
+    "mermhealth": null,
+    "mermhunger": null,
+    "mermsanity": null,
+    "monsterfood": null,
+    "monsterhealth": null,
+    "monstersanity": null,
+    "requires": [],
+    "excluded": [],
+    "card_def": [],
+    "invalid": true,
+    "display_name": "Sludge",
+    "station": "jar",
+    "image": "assets/foods_cookpot_jar/wetgoop2.png",
+    "source_url": "https://heap-of-foods.com/recipes_jar?recipe=wetgoop2",
+    "spoilageDays": null
+  }
+]

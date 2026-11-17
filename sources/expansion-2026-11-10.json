@@ -1,0 +1,1065 @@
+{
+  "retrieved": "2026-11-10",
+  "pages": [
+    "https://heap-of-foods.com/recipes_cookpot",
+    "https://heap-of-foods.com/recipes_warly",
+    "https://heap-of-foods.com/recipes_keg",
+    "https://heap-of-foods.com/recipes_jar"
+  ],
+  "counts": {
+    "cookpot": 188,
+    "warly": 29,
+    "keg": 70,
+    "jar": 95
+  },
+  "effect_count": 93,
+  "effect_translation": "Native localization_zht strings where suitable; supplemented to preserve the full website effect description. No invented magnitudes or durations.",
+  "missing_new_labels": [],
+  "assets": [
+    {
+      "path": "/foods_cookpot_jar/agedroe_grouper.png",
+      "sha256": "39f75b4e47ba2b785fec81452217860bfb50462ae3bcd8d22d9bcff939bc32eb"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_jellyfish.png",
+      "sha256": "991cfb6fb2f4e7345f54b71200faabbfbbcd01f73e48dc09eb1ac20702b0786a"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_jellyfish_rainbow.png",
+      "sha256": "d686d9bfee76a2883b96e09c0a88748e9383dfab5153dc31078590e337e90e45"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_koi.png",
+      "sha256": "5c9a002ea67cd8c5fb24648fe399de43b797835c478389daaa9d3fa3c6d08e71"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_neonfish.png",
+      "sha256": "f7ee29a84e886f010f856842f313cb897aa21ab34f6bedbaefd4404eb8d48e2b"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_glass_carp.png",
+      "sha256": "aaefb5d3d855a7139c17aff2ee15aae891e41fd284653a7951db6b54f4fdea99"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_1.png",
+      "sha256": "f9b4b44ace2c848207c6a7dbf47dbc49c6b516bb4049090e71fb4f3a52bd28ba"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_2.png",
+      "sha256": "17c1de7f2c5ce6bb3b331e70487ae2eb78ae7e8db0ab26cdba2e1fe5fa35481d"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_3.png",
+      "sha256": "2a5d0e77f58ae392957b88eb80468075acf44f308d1c76fa657927ccb124d849"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_4.png",
+      "sha256": "1bb35ceddd1028a09ff336eecc784d0cc73e0ef865f88d670dd8b0a564d09c00"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_5.png",
+      "sha256": "aa15892c92e682a1957eb222bb04a7154f11e236095c17c9d7f5d26578220b8e"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_6.png",
+      "sha256": "75121f5a86ac652cadff5e1e3b9d245dd80bec4f378236a3977b4b4ba607a7eb"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_7.png",
+      "sha256": "a1de7629b12b5f91d1514fe13808ea2c7287bea3c130a65cc5233baabd2ae087"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_8.png",
+      "sha256": "c8f308867a424f52110f2b468c9b970b49e763cb27b8c6a7ed769ef280973eb7"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_medium_9.png",
+      "sha256": "8964a88b7081cc767d7a87ffbcb5f6b628f34d740c587ddbfd695d391281fa3c"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_midnight_carp.png",
+      "sha256": "dc0127b321af1b7229eb08bb77d300da70cad2f2d762141c58ebb523a16fddb9"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_pufferfish.png",
+      "sha256": "546b7132ec03c3c304f44af255880dbb2f78c74edcb8e97c86ac0fc13da2f020"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_1.png",
+      "sha256": "4d678474285ab83aaac1d778c6b3be29e756147bc146bc8f128a3c366f76613f"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_2.png",
+      "sha256": "c36f6387c5235a9f6fa69577c81fad3ba993987e7bd66e9abe2b358a16323bb7"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_3.png",
+      "sha256": "2cde58293960fbbfb0df713adb83e90d96311e3c93778ce1254f742995a81349"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_4.png",
+      "sha256": "fcebe9c4eb85a03ac9b87cab75d581b94df144b5cb4c9d2a46c0cd41c6853caf"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_5.png",
+      "sha256": "729ce91dc1ddd433118dcec8a96dd066f9e41064900dcc536eae3dff96c23949"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_6.png",
+      "sha256": "e0600fceba3575ee38d30d039b2f9172cf0801919c1af61e5baa93382171f06a"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_7.png",
+      "sha256": "67219ced4d837e6e409708ee0f7e1dc48d8dd134ed25a8e4e8dd610774366b77"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_8.png",
+      "sha256": "1f7b88d6901b2deeaee7be0ad86304d28c24c32489159e6bb95f506f7466768f"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_small_9.png",
+      "sha256": "295712214d71795c18bbdb274a6d5ebc11622bcd76c5a2f311f07ab00c568202"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_oceanfish_sturgeon.png",
+      "sha256": "8041212bd63391da8687f80cf7e48ec9a3c824d1780a554579847de847f423bf"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_pierrotfish.png",
+      "sha256": "da895ceb41a349665c77b6ed5b26548d84d61c9950e963d0ec64f8467a92bfcc"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_pondeel.png",
+      "sha256": "4d8b322faf7eb51ff4ae45ecb1f6d57f4ff4a25c7e8ef7e3fc68e84ab0ecd880"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_pondfish.png",
+      "sha256": "633c89732f880882cc3245ca3b09340028ecd459127c9a533cd47dcc4166c81f"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_salmonfish.png",
+      "sha256": "7f73bdf241ff7653e5b8e2081ab5b7aedef5c379a9e427abde39aebf6930127b"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_swordfish_blue.png",
+      "sha256": "7459ead51fdf82d29db7d9e846659c41b5a329ab443e5155f57d602748db4f51"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_tropicalfish.png",
+      "sha256": "a0b59a65c4558b790e81ac42609344ebe71772a67bc88f08cdecc4dacfe88b5d"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_wobster.png",
+      "sha256": "e895b4903b37f94875cb5bd6bcd8078e3ed1711c2ab065ebb70fb4c4a1528c86"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_wobster_monkeyisland.png",
+      "sha256": "ad014d2c2df492f349fde64c7366b87bd27263eb4234c407ab35d58f06068053"
+    },
+    {
+      "path": "/foods_cookpot_jar/agedroe_wobster_moonglass.png",
+      "sha256": "44d4f232170231072fd62f513db90ba70d9e9ea39fdce86f467e50281e3bbc7a"
+    },
+    {
+      "path": "/foods_cookpot_jar/butter_beefalo.png",
+      "sha256": "a961ac1f4c3803a0883e662e5cfd10bbb899fd763e02c28b16a9dadf2666ad6f"
+    },
+    {
+      "path": "/foods_cookpot_jar/butter_goat.png",
+      "sha256": "67a7bfeb7fdcade142ad2188185d45f09722de9d5bf6a8629fd374577b099f0f"
+    },
+    {
+      "path": "/foods_cookpot_jar/butter_koalefant.png",
+      "sha256": "1f2e973b6199fe8ebeaa6b786785d6a48be278e84faa03205943b10da09faf4d"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_banana.png",
+      "sha256": "a9fc01b595b37a56e361cec2e3cbb18505d205e630ae2fdb1d29f359e605e0ff"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_berries.png",
+      "sha256": "5c4341d8b5c25379e0f1d350215c3709131febfdb79849d95127c4e62aa8a2f7"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_berries_juicy.png",
+      "sha256": "47ec4cc471f18f228bee29a6c1af12f61491661586cdbd6a432238bc6201ac14"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_cave_banana.png",
+      "sha256": "f84bd70d4441e0718cb03e1d49d180fabeacf3009eb7752908036147849d332f"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_dragonfruit.png",
+      "sha256": "0d9a7ea0edec0958869a7ab769e61fbc53d3289adee6448b6a16961b5784457d"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_durian.png",
+      "sha256": "0229b91dc8a48413760c6410be28bbb7bb2e93e9b1c12c6df1d7eeb6358d8d24"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_fig.png",
+      "sha256": "1f7ac86f40fa70df05734a2cb271a3300824e6b97f38dee2e031e3ee647faac7"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_glowberry.png",
+      "sha256": "c908574019fa1a89ca8cb610f8582ddce379338a6d3383392a497df4fa5808ca"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_kokonut.png",
+      "sha256": "ae007af3f7dbdc5a3cf5941e1409b8b47da5affa57faa5faa3b4d43a32058765"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_nightberry.png",
+      "sha256": "41008388dc6b2c1125b9cf839e40100a629ed8f99fd95bb846e157983451f3c8"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_pineapple.png",
+      "sha256": "962f09b91ab7cd0e4e2e575a18cdd02850646c50e9d057c506a7d5367542dd74"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_pomegranate.png",
+      "sha256": "44f1b944d515c2b8591b857d16d4ef9c29194894ddc83cf4adb0d39cb3b4441e"
+    },
+    {
+      "path": "/foods_cookpot_jar/jelly_watermelon.png",
+      "sha256": "96f1a6780465261582a0caec5cb5fc41048902f8815039e0444329069842b6d9"
+    },
+    {
+      "path": "/foods_cookpot_jar/mayonnaise.png",
+      "sha256": "606a195f49a0bd08ec5da49a154eaf01a2b2617067dcb9a0ad32b1064d8d18f6"
+    },
+    {
+      "path": "/foods_cookpot_jar/mayonnaise_chicken.png",
+      "sha256": "9c3c6b059a5a290113f993f982019d5955d2416bff103b27dd13bb6e8203b384"
+    },
+    {
+      "path": "/foods_cookpot_jar/mayonnaise_nightmare.png",
+      "sha256": "6f42ba16349c66e5d0bbcba657fbc65b6bfd3fb29184fc832a3d5f1bbefd3dec"
+    },
+    {
+      "path": "/foods_cookpot_jar/mayonnaise_tallbird.png",
+      "sha256": "f0080f2152e2dc4dcb0f9dd74c63f0f72df53322f73b6632da8d3e6a95e7928b"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_aloe.png",
+      "sha256": "81029cf7ec08e333039aad33cb84b66ab7f8dd56229260c4f3730de53fffb434"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_asparagus.png",
+      "sha256": "9d004ff056fd9bdeef8c36dccffb5f4f527c0ddfe06b978f13a2292f12cf659d"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_avocado.png",
+      "sha256": "28752dc0df1ca78598697f1b4fdcfdc392688a3985ec6d2b2d20de5f6da06683"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_bluecap.png",
+      "sha256": "b940d1546ab2dca6b5dae367dbe329e355616a797ef8fe2a96e686f420449307"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_cactus.png",
+      "sha256": "187d04c30db2ecf43550b20911bcaa21f8afe5c5c62b0344aeb16cc8575e12a3"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_carrot.png",
+      "sha256": "b9b174f0e41469cbf2c2d10c2a7375adad8a0c1ea73662a1581e9cee1c59b6a5"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_cavetuber.png",
+      "sha256": "c6ba7646922b7298bb15d1ab1dab1f953cce66ea1c68176ed1b50c40aed55607"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_cavetuber_blooming.png",
+      "sha256": "1df82dc76ea87f7c364eb5fbb2c0d46d232eca3d23e45adc5b254bd0c55822fa"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_corn.png",
+      "sha256": "d00638826f9592bb38038eea37352276fff4baad11cbc497210bfa35d36b937b"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_cucumber.png",
+      "sha256": "76d8c16a09ff4f9b0cd832c8816abf754c4a3582f2de4000b12fa03bd95fe355"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_eggplant.png",
+      "sha256": "49cfb46dc031a198777e730cd26179b28291f48d211484f2cd3889cac3062e24"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_fennel.png",
+      "sha256": "084f2d98823ff8480ce758b70d3724badc2c329e0df0dc149a0f3db63046b058"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_garlic.png",
+      "sha256": "25e29f468a9fcdf3ccd23496b38026c956177ce96f34b335ef0c41d2c2888ceb"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_greencap.png",
+      "sha256": "6afa2a934b335bd453b767754b502b71dc44f2e8d7d6ae08b851b47be699df21"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_kelp.png",
+      "sha256": "fdbe4f068c2b2d0aafb06361d7dee052ce067fb10a310024e73dd899900fc8b8"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_lichen.png",
+      "sha256": "26c300396b120e53c20099b6b27029b119b6da9e18c1ce93020c234080932c03"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_lotus.png",
+      "sha256": "9f08996e1523aaaa3ec6fac0ce5581088085ff5c741babfe46281b38967facd0"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_mooncap.png",
+      "sha256": "d293e1f8272e66addea56a3ab47ead21396f7cd9294a72daac251a0dfbd4a7d0"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_onion.png",
+      "sha256": "664e4f7a15915b8c7b33649ff8741d8faab0372e91725548d45290a75f2f5f0e"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_parznip.png",
+      "sha256": "35c0187a1d373eced8e8c840554fb23d0bba562d1ac1297fe033ac9ef5b1d3fb"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_pepper.png",
+      "sha256": "db5528c0db6aa863cd2a0f4bb65e484aae25b957eda03b358e7feaab5b030501"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_potato.png",
+      "sha256": "dcd0593258a4da9cad26d6464d24de5df0acc6801b776e0495f5a3e9982827c0"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_pumpkin.png",
+      "sha256": "31b36b9a00025954589c498b4596a606e9a9a43d6ab5e13d5e365e5a61288c5e"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_radish.png",
+      "sha256": "453de2cf641d4e94421c2f5c4aeb9b8d78d6a71fe51f7645a6d94e50bcbd1ee1"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_redcap.png",
+      "sha256": "a5f01dcfe539846b85e6a9bcb03753dddaa64d3466fb8968231ce8797b3e9ea8"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_rice.png",
+      "sha256": "3d6363bb92b48e89fe5cc4d20de0a6e03e4fa7d7b8728fe783b443c6e8d42941"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_seaweeds.png",
+      "sha256": "a8fa7b9511e77219e2e8900a0324ff12186b10b0a82d44de420d467927d6a9e1"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_sporecap.png",
+      "sha256": "1ab7b10697af801b1729d360675ba7b9a655d355753915befcea620cdf8207fc"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_sporecap_dark.png",
+      "sha256": "c77e1e2c4442875c902edeabee23919e03e7e90ce6b638b102e7e3306b6df8bb"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_sweetpotato.png",
+      "sha256": "c2c33b3022a55052bfc0cf24ec8cfa23115af09a526092477c144cfa24627e39"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_taroroot.png",
+      "sha256": "3d465b13c295a86c26ef70b1bc7f2f7800b4240b8a7947b037e32b8bded67fdc"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_tomato.png",
+      "sha256": "33ef3ced8a05eb805639e9bab56606177578e03619731f434991224b8af6861b"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_truffles.png",
+      "sha256": "7d3cd05ea0ac6136d4dd7904d2d022eeea6aae636364023f5b8b5a20dc83d0df"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_turnip.png",
+      "sha256": "24ad03e4ed465b95082a4234520a6cf29e0cc94c1093c7d2eb7948012a7fe086"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_waterycress.png",
+      "sha256": "3744394fad4876373529d47b354fccaea85440e49c9719a33cdef8a99dc458a2"
+    },
+    {
+      "path": "/foods_cookpot_jar/pickles_whitecap.png",
+      "sha256": "cf5d28b6bff5f821b84b6aaed92b8daf9399d17aa388ba2e19ffb1c50758845e"
+    },
+    {
+      "path": "/foods_cookpot_jar/tartarsauce.png",
+      "sha256": "68a639c20cc6c24f6c8551d4f464e668a0d591d4fc09fa49230e978a432e8e09"
+    },
+    {
+      "path": "/foods_cookpot_jar/truffleoil.png",
+      "sha256": "f8ad37248c6386a019f5bb53ffa8d2603b04c290887446505510970fad8a19fb"
+    },
+    {
+      "path": "/foods_cookpot_jar/wetgoop2.png",
+      "sha256": "a8632bb9df6d23fa3ee8a20b0dee9a89d4392b1d704ae7a8462efc9b0a8e244b"
+    },
+    {
+      "path": "/foods_cookpot_keg/beer.png",
+      "sha256": "c22ebaf6cc99dbce3c6543b81b2645aed4b9c36ac4d258ece99db0bf21da9af6"
+    },
+    {
+      "path": "/foods_cookpot_keg/coffee_mocha.png",
+      "sha256": "2f42f8cd9a3166e3e53d353e6f10c42bb312efd9fdb892285eab35f54152d90c"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_aloe.png",
+      "sha256": "edbae3e0ad2fb507bf7b13be78a14b73fe91777ad16c36f13a101d6fae57c5a4"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_asparagus.png",
+      "sha256": "be8037553f828bd6172fab8063207c2230fdcb6746af6416147ec89ee9c340a4"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_avocado.png",
+      "sha256": "02842af4216eb1cbcd89cb36c62ad761866549d6edc73b556a8c5ae392202cc0"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_bluecap.png",
+      "sha256": "ff80430ed8110f3c1979e5096c1ae0eefba65f45c7646f73b9d364012f5c4175"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_cactus.png",
+      "sha256": "e0cdf14fb7ae67eb1771bd3b6932065811fad7a9d705a962c254320dd1b7879c"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_carrot.png",
+      "sha256": "54f3b4e0ff8806ff8bf791a70adda834fd25ea14d136c5512bb00120f7eca127"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_cavetuber.png",
+      "sha256": "536c2e717e10be8cab4aac2c97dbb23344b72fd6a5ba7340421a9d7a69ef531c"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_cavetuber_blooming.png",
+      "sha256": "791cc3e26260515fb4eb29d7ee42a24064151d93556176693b97b6099b4b854f"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_corn.png",
+      "sha256": "4557baf7489c3c0999db14f143f6f89742933c2dc6e94b47128724579f743b3b"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_cucumber.png",
+      "sha256": "f8c74739912866959b0e6e79e4ba48ec4b660f35f06881b074195602bb6b3f91"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_eggplant.png",
+      "sha256": "d717501ffdd3d39f7b4dc8e898c0f31e3feb576b6ea9a2dbaa78880eb2de3f13"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_fennel.png",
+      "sha256": "61376e3b8f7a1210769991f35cc3ab8280ac423ae8b5549831b6a20828daf791"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_garlic.png",
+      "sha256": "c1adab6540b2af7f3e4bf620677a7c97a5eb926b2645aa218a47fa3fd80853f0"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_greencap.png",
+      "sha256": "85eea40b48c9f8e9061a23941448aab4eddb4393cbffd3ba4516e9e6de27c7b7"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_kelp.png",
+      "sha256": "6e7eada2dc474f3b360229e5315036401eed82810b3035497d0b962554db8b02"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_lichen.png",
+      "sha256": "1e766391f99006f039c801ab399ae807a9459f6623645f9966bfa798cc861e37"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_lotus.png",
+      "sha256": "825aa61e27266df9da065a58596e183b2035a484ffc2839d081f01af4e077d8b"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_mooncap.png",
+      "sha256": "ee9db1aa84b857f793ea81ac6df3c7192cbf43d2d7775feee341c6d2190b056f"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_onion.png",
+      "sha256": "a2b842b79dc4da23bd6a9590fabf77d0054bfa68d764097eea0b7af6b37ad34a"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_parznip.png",
+      "sha256": "10b4e5393c69f2289afd9eef3f10bbbb5f315726895c0e21d0907337baa24613"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_pepper.png",
+      "sha256": "b453448ea8934b4df892f55c936ff9338206955d78cdce6f478f223a5cd8d8a4"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_potato.png",
+      "sha256": "bc69bf88c495ba24617ec6e803f9ff28d46512f1293a85b63ae67b85f1749ee0"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_pumpkin.png",
+      "sha256": "8572f04bb83ea0fbf6d832f15d2603c6603abf4cf1865001af60f58355121341"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_radish.png",
+      "sha256": "8e4e22138abf65b306fc9cf7724fddbfd5215a369c66f322be9cdd15947252f9"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_redcap.png",
+      "sha256": "36ce0f669ca7dd6577fa51f2a998024da934c4508851f8c36a275e42559f6f4d"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_seaweeds.png",
+      "sha256": "d8526128a151f8b70d7c0aff9ac5b9941b7941ab7a0ff57eb877ec5107557f48"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_sporecap.png",
+      "sha256": "889c4bdf6d1138c7775aacc78faa35b04d60fc4e67c6d24285ba1156f560fa81"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_sporecap_dark.png",
+      "sha256": "3b9b771f435b54202d16776de3fedd180e2b908da9587453b0f2d2e8527983ac"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_sweetpotato.png",
+      "sha256": "50967fb8a13d347cd1cb3ba6123ef9f020ca5c3fbc90ff011c5f1bf5ee82e1b7"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_taroroot.png",
+      "sha256": "25572e6faaecee5361a78d92cdf68b1728a4031bde83ae9fb7931ec4f1f13ee7"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_tomato.png",
+      "sha256": "830c7c9fff27cc16b518f96d72c43eb17654d13208fdc8419554f9e5b3a511e3"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_truffles.png",
+      "sha256": "f610c09f9c27f0df5743a9ba8272981f6fc962bf8afeb868e6bd4ae9b432fa68"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_turnip.png",
+      "sha256": "2636cbbd4f31777f27e86357da6ae41a986633b1ec2dcd4fa00f0e0eef9460bf"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_waterycress.png",
+      "sha256": "fe2a567dab20d45e2545ad9fc416f6b7050e7b96ed9dbabe7ff84deed2ca29d8"
+    },
+    {
+      "path": "/foods_cookpot_keg/juice_whitecap.png",
+      "sha256": "0337a13316cb0f4dab01278abb07338d41ccbea44648e0478ee69d78770da385"
+    },
+    {
+      "path": "/foods_cookpot_keg/lunartequila.png",
+      "sha256": "383a89fec2a9add5c0968f350eb70b3ad4bac4cc9c215b47386ee3128d48e54b"
+    },
+    {
+      "path": "/foods_cookpot_keg/mandrakebeer.png",
+      "sha256": "aaf8448806d597e48a386c116a3cd3fddfa742d7dc28764631d8e8c7a23c9a7a"
+    },
+    {
+      "path": "/foods_cookpot_keg/mead.png",
+      "sha256": "5f2b2b17aa0a78201b8b3cc7d2273130cd5608f88f746a8e61af0b4b87b422d1"
+    },
+    {
+      "path": "/foods_cookpot_keg/mimicmosa.png",
+      "sha256": "0ed6c2757ec5b573fbca4b19c330c01b17f26a176e089f050ec2fdcdfb0af070"
+    },
+    {
+      "path": "/foods_cookpot_keg/nukacola.png",
+      "sha256": "9032785d8ad1a69c357c05bf2265294d7bc7beecb56ba0369b069984b98b303b"
+    },
+    {
+      "path": "/foods_cookpot_keg/nukacola_bramble.png",
+      "sha256": "889ac945be7eed446a754d84c50bfbce65686057c62cc92035e2ee2de07a3cd0"
+    },
+    {
+      "path": "/foods_cookpot_keg/nukacola_dark.png",
+      "sha256": "ff4894f6243a32ecf933c3a7ba5d0ae5c552f0eca633cf8ebbdd6baee435c435"
+    },
+    {
+      "path": "/foods_cookpot_keg/nukacola_quantum.png",
+      "sha256": "3fa48ccf2b85725a0958fcee8a798373792a50bdac8cb5a320a98b8b2507234c"
+    },
+    {
+      "path": "/foods_cookpot_keg/nukacola_twist.png",
+      "sha256": "ad48dc90be0635160a35b0b2eec82e15e08abf31b54393a0a98568e714bdd1de"
+    },
+    {
+      "path": "/foods_cookpot_keg/nukashine.png",
+      "sha256": "93e88954bd00d91a4cb9f9ad609c1f02e59f06005e09c5eb521038b6a269d6b1"
+    },
+    {
+      "path": "/foods_cookpot_keg/paleale.png",
+      "sha256": "fcf83b16a1f6862b9dc1e86bbf06e3b9cf86b2535fc7bbc5f1113e2d032a79e1"
+    },
+    {
+      "path": "/foods_cookpot_keg/piraterum.png",
+      "sha256": "7fd7998e9485d91287df50a15e4d356a95eaa1880d37101ec16a50236be78367"
+    },
+    {
+      "path": "/foods_cookpot_keg/ricesake.png",
+      "sha256": "9b17ddf767dc6bc96bdc5e46c1d9a2883e29958b283c947f993a1208b9f2ebf0"
+    },
+    {
+      "path": "/foods_cookpot_keg/souljuice.png",
+      "sha256": "f58e6a3325796da83dec1382d246815db4580fe11ecd317e64e3c298afc2f572"
+    },
+    {
+      "path": "/foods_cookpot_keg/teagreen.png",
+      "sha256": "9d1017e9f5b9cb4b7dce449d90749550ee25fe60f889032b04d800fa7afff8b0"
+    },
+    {
+      "path": "/foods_cookpot_keg/teared.png",
+      "sha256": "2616b004ca9b7e32cf79184774552408f88dd18fef668c709da1a050971428e3"
+    },
+    {
+      "path": "/foods_cookpot_keg/tepache.png",
+      "sha256": "df9948811ddc39adf7afbc21f35257c7d766a7953b9c84d5872d2a3dc02e42e3"
+    },
+    {
+      "path": "/foods_cookpot_keg/toadstoolcola.png",
+      "sha256": "9028defba476eca7e280a52bb442ed115d0f883bfc827b74d21da75f06058a04"
+    },
+    {
+      "path": "/foods_cookpot_keg/twistedtequila.png",
+      "sha256": "40845fc0a9d4191fb6e03ea860f53591d0f3b1431a6a66c942b80b747a0714df"
+    },
+    {
+      "path": "/foods_cookpot_keg/wetgoop2.png",
+      "sha256": "a8632bb9df6d23fa3ee8a20b0dee9a89d4392b1d704ae7a8462efc9b0a8e244b"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_banana.png",
+      "sha256": "6371f6e5edcbaf89c6ed77ba2a8c4883804827864b47accf7fcfd8915fe43b90"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_berries.png",
+      "sha256": "2e37cb67914d251fc7a8bda03def5c97b4e8916162f581087d4ca39a00a853cb"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_berries_juicy.png",
+      "sha256": "5aa744bc77c6745a99cd35179b81b36b1505d4490d60218e2b2cbcf5a5f4207b"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_cave_banana.png",
+      "sha256": "cb4e2b9fd51802e5f9ee51ffe4337db849cb82c1675c1d3ee5cb10cb0dc900e5"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_dragonfruit.png",
+      "sha256": "b51d8106a5f3a9c9af8aa4247a6509520a22980f87359f1e3a514ddbc1d55950"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_durian.png",
+      "sha256": "617205072891f39d78696fb5a9b864303592114c4dc51691442a451d3e2292a0"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_fig.png",
+      "sha256": "3ebcfda5dc00e776cc6be719404b8cc3790bca23cadc9998f58d93b7d095d4cb"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_glowberry.png",
+      "sha256": "d27af48e7219d6bd131b3f993ab4df4917333792bafd70e14dbdd8ad5cd3a85b"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_kokonut.png",
+      "sha256": "81999d9e812f81353b7fdeb7ffe62cf79bcc412c6ef260a5c4d3537eefe79d9a"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_nightberry.png",
+      "sha256": "3b511eb4ac6a511a86ac9b685e8d3e358650ec8a9a36223dff39946572575016"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_pineapple.png",
+      "sha256": "5799077ce63b6a301cc134f35dc6f0cc4cb63dcb7b4f89269e7b564130c0f5cc"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_pomegranate.png",
+      "sha256": "05ce6e7c637a459e7552bc9d0cd8df9ccbcca67ac0a06599e86593c156077ed5"
+    },
+    {
+      "path": "/foods_cookpot_keg/wine_watermelon.png",
+      "sha256": "75f8481f2ab0a2c6ddaeccc0e4f34ac4a39cb38f0e0087ce6b53a34621f11fc8"
+    },
+    {
+      "path": "/foods_cookpot_warly/bbqribs.png",
+      "sha256": "6c009f5690f5f0d0c5661c615867137d926d799e388d37437b83515ae1216e3a"
+    },
+    {
+      "path": "/foods_cookpot_warly/berrysundae.png",
+      "sha256": "f3d4e28119a2aefb942149e6e02765e5e13e50ca04398dddefbead2bd710084f"
+    },
+    {
+      "path": "/foods_cookpot_warly/brownie.png",
+      "sha256": "3cf5c8f7d94c5dee2771352e62621f35e3381e8464bcdd66e2087685449ce2e5"
+    },
+    {
+      "path": "/foods_cookpot_warly/bubbletea.png",
+      "sha256": "69f20aa9f86fd67db805e0dd8ac1ed904a74ddcbf14ac01023dcc53f48e051d2"
+    },
+    {
+      "path": "/foods_cookpot_warly/cinnamonroll.png",
+      "sha256": "7424e3558d201368e1cf3f0680a6cad3e1a61c2b51b3c3f47dd0c8807d68798d"
+    },
+    {
+      "path": "/foods_cookpot_warly/frenchonionsoup.png",
+      "sha256": "2e7e37d3269999cc9619356cee1037b1568346f63cd9b8b8d896c77a86512afa"
+    },
+    {
+      "path": "/foods_cookpot_warly/gorge_cheeseburger.png",
+      "sha256": "d598faee2ac93dbcd19dfbb8d3290bdb0bcd84651ed336fefab879cc01a0bbab"
+    },
+    {
+      "path": "/foods_cookpot_warly/gorge_meat_stew.png",
+      "sha256": "0b1b88bc69eb9311a50e2ab5604452f1d606a69da082bf6b1f719a4d72adf818"
+    },
+    {
+      "path": "/foods_cookpot_warly/gorge_meat_wellington.png",
+      "sha256": "c26fd6912736bf58afe090137090dadf57b2678ba0104950ad07e11a2910dbe3"
+    },
+    {
+      "path": "/foods_cookpot_warly/gorge_pizza.png",
+      "sha256": "8529370fcc1093ccaec40f9ebe3e975f5825ecb467eaf93114abe2289fd00cd1"
+    },
+    {
+      "path": "/foods_cookpot_warly/gorge_trifle.png",
+      "sha256": "327bdbfb8cbfdde42cda7eb87b5cc50a2a1db47e196c9b6fd99f50d63924ff35"
+    },
+    {
+      "path": "/foods_cookpot_warly/jellybean_hunger.png",
+      "sha256": "3322a74d6cf6ef53cee27772b78bc569ea771b6ba40eb8d3caebe0fb6963313e"
+    },
+    {
+      "path": "/foods_cookpot_warly/jellybean_sanity.png",
+      "sha256": "025795d610a5ecb37c017cd67644d0e8a3dc0800bf30260b56cf0ebabfdaf3bd"
+    },
+    {
+      "path": "/foods_cookpot_warly/jellybean_super.png",
+      "sha256": "22e5a70f88097748d9c9a7e88991b5c6713912188b7901b4f365296657240c6a"
+    },
+    {
+      "path": "/foods_cookpot_warly/lavaeeggboiled.png",
+      "sha256": "a469df7ff27a3f17bcce673fa60730945bc39c66ad2378ae287ff2ba2cff1d67"
+    },
+    {
+      "path": "/foods_cookpot_warly/lazydessert.png",
+      "sha256": "6dc29b859a08284ffb6f6190cf35268f317c16b85d9b375b36967aa590da522a"
+    },
+    {
+      "path": "/foods_cookpot_warly/mandrakebaobuns.png",
+      "sha256": "65dc2db7dc3e48177f376b2f67d1f22089ac7e2ee89a123507c5b5c5cb69762f"
+    },
+    {
+      "path": "/foods_cookpot_warly/meatskillet.png",
+      "sha256": "2d2a334e428b91519d67977568e3b1456c3725bfa4c719d9a559434781eb998d"
+    },
+    {
+      "path": "/foods_cookpot_warly/milkshake_prismatic.png",
+      "sha256": "2b5f6a68c6c61af84a1441d6a61787a9d9f6dfc0a64b1e3d09a76c196e9e1ef5"
+    },
+    {
+      "path": "/foods_cookpot_warly/musselbouillabaise.png",
+      "sha256": "8d682e81ab42ceb669b269241543ef99f7127c3e0c51e2dfebf895827fa77266"
+    },
+    {
+      "path": "/foods_cookpot_warly/nachos.png",
+      "sha256": "cb5d52b74f5a6e156a80d69a112d30acb53b87c964bd73f2c6c6aeb2c28351ec"
+    },
+    {
+      "path": "/foods_cookpot_warly/opalpreciouslollipop.png",
+      "sha256": "1de2b7f66ce07091d66c3462903ac2675ad8e9d98fbc4998559fcbfd93830960"
+    },
+    {
+      "path": "/foods_cookpot_warly/risotto.png",
+      "sha256": "d49949ca40e09643170f323d21736453ac341540c96910e8f8f01425f3c1b0b6"
+    },
+    {
+      "path": "/foods_cookpot_warly/sweetpotatosouffle.png",
+      "sha256": "d6ebf79d51ee38aa6a3edd4f54c6605f9a8b5f2b2828a5868818b6528a0ca02e"
+    },
+    {
+      "path": "/foods_cookpot_warly/swordfishbluedinner.png",
+      "sha256": "806a2fde049c652970515183a5ccde1acd3666f9d3ae60f7e15589eb33904fb1"
+    },
+    {
+      "path": "/foods_cookpot_warly/tiramisu.png",
+      "sha256": "2623675ac4a9090470d85d9985cd5e5e2d3d429e076966e931ef21a38f129f55"
+    },
+    {
+      "path": "/foods_cookpot_warly/tom_kha_soup.png",
+      "sha256": "e6dd75a27ec65510db8660e982b903e8f48e51ed9043b05fe5f3d8f0dc55f5ed"
+    },
+    {
+      "path": "/foods_cookpot_warly/warlyicedtea.png",
+      "sha256": "8869b796a622062df67aa4de3cc8340a3202aa2842eec11e6a54ac5e22eb2256"
+    },
+    {
+      "path": "/foods_cookpot_warly/warlytea.png",
+      "sha256": "0a7d7c438a476394c56581941c20244eb9a3c03405436b46e0ed40f3f81d3133"
+    },
+    {
+      "path": "/icons/cooking/icon_debuff.png",
+      "sha256": "890a00729b1dadd1f2dcaa702bbf5fb5254f4ae52d9ef2d011fc8981d61cad01"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_blue_cap.png",
+      "sha256": "f2b4c35d297e968d14fca8a069d5ecf4b8a7c8e191a398a3becaeed513062097"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_cave_banana.png",
+      "sha256": "3b9fd6ac8a19cf4d39af77237b52404237971009e80e539516a41aa0c0841f63"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_cavetuber.png",
+      "sha256": "25828e0bbee3b349bb6c49321d7ad72826bf4629c774410a97e3754c148aa0fb"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_dragonfruit.png",
+      "sha256": "188b3ba818fca02abec4c64c9b81ad0c0777e1090d42f5b8e5f0b4ae535a0b41"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_eggplant.png",
+      "sha256": "aa75475b0eaeb98dcb07316596f036da8690e80e3201c2e7bfc1af688e139c4d"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_green_cap.png",
+      "sha256": "d0d23697bd7c46d5a5df6a7c25dfd10e9191b236078c0228b77dd40f203cffdd"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_horrorfuel.png",
+      "sha256": "39d697261996e1f05994b75a2ee3cb6ca927808c407128816f802924d4720c3b"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_jellyfish_rainbow_dead.png",
+      "sha256": "ffb8e949a320753bc743942445b3420932e927af9dfb8237c23ce131bf389099"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_lavae_egg.png",
+      "sha256": "891c28acba0d4960ad3431bbe80ee2cec59c6801468c9f417cefc9dfcc716e7c"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_moon_tree_blossom.png",
+      "sha256": "3cbd5faaf03fadf6959567db3bdd3f94d9fa1d18f6488f522cda94b4e6927357"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_mussel_cooked.png",
+      "sha256": "6bf892d37fa88b6d92923c0c5ef0b15136a8f987328e74471e9a3545ebbbebba"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_nukacola.png",
+      "sha256": "04d224f02b2db560fcf725ee2fd81bc903e6847c3f657451d2a332e4802d2fe8"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_nukacola_quantum.png",
+      "sha256": "8d23ea0de3b36a7b7e00a06996fef9e7d163bc26ab9255c055530bec7d4edc4a"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_piko.png",
+      "sha256": "0cd850098549c7b8adee094440718d383434f2461db5fccfe1c02ea0d4413415"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_piko_orange.png",
+      "sha256": "4cdb316b863a17e706ce463a20df1b0f3e445b06b2e23c24e12aaafff880fe8c"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_purebrilliance.png",
+      "sha256": "b47f5d033770e7cee6d23e6f03bb908b2596affcfb2ad5e5d956a3bc24960d3c"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_grouper.png",
+      "sha256": "57a9c4ad12aaf2b991f4f0016a4ffdb9d62ebc15bf5843a88c532466160c3ef3"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_jellyfish.png",
+      "sha256": "2ddb3011729d9a0cf3592e53f025d7e0abbe5f516ba3cdebeaf75a620a266e39"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_jellyfish_rainbow.png",
+      "sha256": "0fa8d61bb03e162be29edd9f4faa02793ff47be838da59648c4a7ed1064b799d"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_koi.png",
+      "sha256": "b736039115d6537ad2ac52265f8ba6d20ccc880850af92b2ebda8363808c26bb"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_neonfish.png",
+      "sha256": "2faa7ba2a4467fa07a464d0ff0344ba4ca5c52698097853e22b979eaed8ba032"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_glass_carp.png",
+      "sha256": "70622a01646165d7444be1d3a0f5b8152308d8bb0d20e973088548db498ff9a0"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_1.png",
+      "sha256": "97c0c188808529fa6bd1f93561d62846a991c38a726cf492c726adf3665750c7"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_2.png",
+      "sha256": "ccc2cba79a2440ca2cba66320affbe80850ab8beecd54a1d12014e6b58d3624d"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_3.png",
+      "sha256": "8ff9373003c971d0b9b62c887b40bf6d5a33887c05e49e8f6cba6c319141c2a2"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_4.png",
+      "sha256": "8804037a052425099badf05b5fdf4134fb84727c65da7cd03b2b1d33fbba48ae"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_5.png",
+      "sha256": "6e70ffc5c03915b5e3ff38971f2f39d9e9001aa9d99c0b764eb606f391638295"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_6.png",
+      "sha256": "446a5534c7501ea21cd4e0442b0bc2214067a4c7c0460d20c7721d4d33f1ff17"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_7.png",
+      "sha256": "6768c4288b5b033409dd003d3863926f8445048b10f281b7d7f19676d82464f3"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_8.png",
+      "sha256": "7a0311cc2c0c6f4cbb41d2f9234a3c717861be2a227026be5689e886f9f13298"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_medium_9.png",
+      "sha256": "0b2c51efde3eb3976ebaad70ad2636ff1455f79637a550d5b427fa878a85dfd0"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_midnight_carp.png",
+      "sha256": "c1a46f8f9bdf0e31bbb2f1f1b8c6779d9175b66bf55c5a68f311d12921171be1"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_pufferfish.png",
+      "sha256": "1884d98bad7df2b0f43eacb306833e27fd9935b6fbdb1d3980ed57f75d8a642f"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_1.png",
+      "sha256": "182c5c0c458db3961f2466f6c86794f02164fffdbc9f7ce3ebdb21b7bc600b5f"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_2.png",
+      "sha256": "3428ca080aa24e2562d9d11a90d5bb9caac570343055a56723a0383283e7503a"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_3.png",
+      "sha256": "0e06f013566d3404621d0f1cb0902eedf44f853924ad2a3ac195bc75c9c86d01"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_4.png",
+      "sha256": "d9ef697eae5d29fa34f828f91d01caa9d0fd0999437a6a1e79b5f077fbbaff29"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_5.png",
+      "sha256": "dce5959f0850a7b50603aff29530f95c1fd2ce0d18115a89d35795f0e8e123e7"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_6.png",
+      "sha256": "17845a13ef2906aa013628e9e041d448e643ae0b8c50c16fd08426b17a529bf3"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_7.png",
+      "sha256": "9d219fdae605151443beff0bf2af1bc089b243df7f6d704e2b2212486f040d9d"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_8.png",
+      "sha256": "89fb21dd7d869ab4d7fbf7a00133c4095c4f6fe4ae29496f41608db685266fa3"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_small_9.png",
+      "sha256": "ce5b51a8e0eaac676202a40c9f12456f5bdb1b3dd655c559465f3fffcaab5309"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_oceanfish_sturgeon.png",
+      "sha256": "301c33f05cb7e6d65c3d20a90148a52781fc58c92b2c27331eeb3beb03924f0b"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_pierrotfish.png",
+      "sha256": "88263962276384442ac3082b417a196c2bd2cfe9dd1aac6c0c6668c8301ce073"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_pondeel.png",
+      "sha256": "1fc994cfb118d495b3b06cda0a8bdf14401927596e954cbe736aad63b0808a10"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_pondfish.png",
+      "sha256": "cadbb8bdfe025268d103467d28be00c6ca0e21198b5fab9c9e1e7a97ee830587"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_salmonfish.png",
+      "sha256": "6e0bc3494767feaa01ee26f269cda14ae5b8a90a044292960ef2b618328f8b24"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_swordfish_blue.png",
+      "sha256": "63f03073f48b4ed27cf413bb10cb0cc3b5b98cb806f8961837ec78bf5ba2c749"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_tropicalfish.png",
+      "sha256": "26187bc879b00050a6dedc91e8ea2d0552f22e1eda18c08c3db2ea452c908879"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_wobster.png",
+      "sha256": "b8f3c1bc6c9f6f1bc16834c3e04b2666e8cb0465743069643bb148dd45b004df"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_wobster_monkeyisland.png",
+      "sha256": "5ffe09198a3074258e791851b6451f13b504bca9eec2b2806fd2e48285bd2df0"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_roe_wobster_moonglass.png",
+      "sha256": "6ab120b2dcd1d87bde2f27b6e75f691a56b5a19624048347393d7be275f92702"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_seeds.png",
+      "sha256": "043fda627b22d14a3f2a25c880b84056e60217da9c17d5d381d05a1bedf76205"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_spotspice_leaf.png",
+      "sha256": "0e6f938c70aa0ede504163dda8e5d761ca9c28caddb21247193acdd1c9748ceb"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_swordfish_blue.png",
+      "sha256": "399f2db7f1196361b93e6b5be05f863ab746f0ba4bcbe34a87b36038791d8cad"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_tallbirdegg.png",
+      "sha256": "320ca2cbd446bb386f08b6878c63d37bbf087321d49d00f13a8a0252d11d7594"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_townportaltalisman.png",
+      "sha256": "970589d950aea4b6a89942b33725aaa11ad85b6512ebcb119d5be60f83cad8cd"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_wormlight.png",
+      "sha256": "dc42c84497d543264e420f254abe5b7eeda2eaf4e9c18e27875a48dabd2b9ca2"
+    },
+    {
+      "path": "/icons/ingredients/ingredient_wormlight_lesser.png",
+      "sha256": "09a04f1d8234d1bc90b33c39c8f656703a53d5c56b31e572f41e04696e458791"
+    },
+    {
+      "path": "/icons/ingredients/tag_iceweed.png",
+      "sha256": "dcf882dda0c52d639166663567a2ce65d7edb8be9f7d6eea3b761c67e1b7e681"
+    },
+    {
+      "path": "/icons/ingredients/tag_mayonnaise.png",
+      "sha256": "87da34913c85359bf3e816551c50a325e7f0bdf064899d5ff1442ce6d66e7857"
+    },
+    {
+      "path": "/icons/ingredients/tag_mushroom.png",
+      "sha256": "d65be84b3bf75f1ea28d4759ee44fdbff54ae1c4ba63957839db2d41022887bc"
+    },
+    {
+      "path": "/icons/misc/icon_cookpot.png",
+      "sha256": "416adcd6c1768365a70ea17f8c03727112f94fac4b7ba06eb9a8aadbb3281d0b"
+    },
+    {
+      "path": "/icons/misc/icon_cookpot_jar.png",
+      "sha256": "50feecb21d12f4d54c53616dcfffaf1fc23457b2ce3ff6e9b373516e6eef01c3"
+    },
+    {
+      "path": "/icons/misc/icon_cookpot_keg.png",
+      "sha256": "4f13391ce773ad87cb279c99e543e8e14c59404f32750c91322b3eee60de86dc"
+    },
+    {
+      "path": "/icons/misc/icon_cookpot_warly.png",
+      "sha256": "690d845bfb8a933e294cddf83c21125a3350ccb5a2f144ee0c5e0dc51cfd9dbd"
+    }
+  ],
+  "supplemental_labels": "Native localization_zht where available, plus Chinese aliases for base-game items; existing ingredient-labels.json takes precedence."
+}
