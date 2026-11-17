@@ -28,11 +28,9 @@ def main():
  labels=read('ingredient-labels-extra.json');labels.update(read('ingredient-labels.json'))
  english_labels=read('ingredient-labels-en.json')
  recipe_names_zh=read('recipe-names-zht.json')
- effects=read('side-effects.json');english_effects=read('side-effects-en.json');recipes=[];stations=[]
- assert effects.keys()==english_effects.keys(),'English side effects do not match the Chinese source'
+ effects=read('side-effects.json');recipes=[];stations=[]
  for effect_id,effect in effects.items():
-  assert isinstance(english_effects[effect_id],str) and english_effects[effect_id].strip(),effect_id
-  effect['detail_en']=english_effects[effect_id]
+  assert all(isinstance(effect.get(k),str) and effect[k].strip() for k in ('zh','en','source_en')),effect_id
  for station in STATIONS:
   rows=read(station['file']);stations.append({**{k:station[k] for k in ['id','label','zh']},'count':len(rows),'image':'assets/icons/misc/'+station['icon']+'.png'})
   for original in rows:

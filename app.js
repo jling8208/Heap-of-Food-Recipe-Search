@@ -30,7 +30,7 @@ function setStaticLanguage(){
 }
 const colors={VEGGIE:'#a6bc89',MEAT:'#c69587',GOODIES:'#d6bd75',MONSTER:'#b19cc6'};
 function activeStation(){return stations.find(s=>s.id===state.station)||stations[0];}
-function effectText(r){return L(r.side_effect?.zh,r.side_effect?.detail_en);}
+function effectText(r){return L(r.side_effect?.zh,r.side_effect?.en);}
 function effectSummary(r){return r.side_effect?`<div class="effect-summary" title="${escapeHTML(effectText(r))}">${image('assets/icons/cooking/icon_debuff.png','Side Effect')}<span>${escapeHTML(effectText(r))}</span></div>`:'';}
 function ingredientPath(id){return `assets/icons/ingredients/${id.startsWith('tag_')?id:'ingredient_'+id.replace(/^kyno_/,'')}.png`;}
 function ingredientName(id){const item=byId.get(id);return item?(state.lang==='en'?item.english:item.label):id.replace(/^(kyno_|tag_)/,'').replace(/_/g,' ');}

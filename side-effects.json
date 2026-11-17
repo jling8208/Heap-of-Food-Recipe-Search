@@ -1,467 +1,560 @@
 {
   "cookpot:coffee": {
-    "en": "Speeds the body",
     "zh": "提升移速 50%，持續 480 秒。同時增加 10 點睡眠抗性。",
+    "en": "Increases movement speed by 50% for 480 seconds. Also grants 10 sleep resistance.",
+    "source_en": "Speeds the body",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=coffee"
   },
   "cookpot:sharkfinsoup": {
-    "en": "Increases naughtiness",
     "zh": "食用後在附近尋找生成位置並召出 1 隻坎普斯；找不到可生成位置時不會召出。",
+    "en": "After eating, attempts to spawn one Krampus at a nearby valid location. Nothing spawns if no valid location is found.",
+    "source_en": "Increases naughtiness",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=sharkfinsoup"
   },
   "cookpot:tropicalbouillabaisse": {
-    "en": "Speeds the body",
     "zh": "提升移速 50%，持續 480 秒。同時增加 10 點睡眠抗性。",
+    "en": "Increases movement speed by 50% for 480 seconds. Also grants 10 sleep resistance.",
+    "source_en": "Speeds the body",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=tropicalbouillabaisse"
   },
   "cookpot:snakebonesoup": {
-    "en": "Increased damage to worms",
     "zh": "對蠕蟲及蠕蟲頭目身體節的傷害提高 50%，持續 720 秒。",
+    "en": "Increases damage dealt to worms and Worm Boss body segments by 50% for 720 seconds.",
+    "source_en": "Increased damage to worms",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=snakebonesoup"
   },
   "cookpot:gorge_carrot_cake": {
-    "en": "The cake is a lie",
     "zh": "「蛋糕是個謊言」",
+    "en": "The cake is a lie.",
+    "source_en": "The cake is a lie",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=gorge_carrot_cake"
   },
   "cookpot:gorge_garlicbread": {
-    "en": "Scares nearby batilisks",
     "zh": "每 10 秒使半徑 10 單位內的蝙蝠放棄攻擊；能恐慌的蝙蝠會恐慌 6 秒。效果持續 480 秒。",
+    "en": "Every 10 seconds, makes Batilisks within a radius of 10 stop attacking. Batilisks that can panic will panic for 6 seconds. Lasts 480 seconds.",
+    "source_en": "Scares nearby batilisks",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=gorge_garlicbread"
   },
   "cookpot:gorge_candy": {
-    "en": "Speeds the hands",
     "zh": "加快採集、收穫、取物、拆解與一般製作動作，持續 480 秒。",
+    "en": "Speeds up picking, harvesting, taking items, dismantling, and ordinary crafting actions for 480 seconds.",
+    "source_en": "Speeds the hands",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=gorge_candy"
   },
   "cookpot:cucumbersalad": {
-    "en": "Dissipates moisture",
     "zh": "清除潮濕並保持乾燥，持續 300 秒。",
+    "en": "Removes wetness and keeps you dry for 300 seconds.",
+    "source_en": "Dissipates moisture",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=cucumbersalad"
   },
   "cookpot:bowlofgears": {
-    "en": "Upgrades the chassis",
     "zh": "僅 WX-78 可食用：立即補充 100 點電量。",
+    "en": "Only WX-78 can eat this: immediately restores 100 charge.",
+    "source_en": "Upgrades the chassis",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=bowlofgears"
   },
   "cookpot:longpigmeal": {
-    "en": "Hurts the body",
     "zh": "「致命的盛宴」",
+    "en": "A deadly feast.",
+    "source_en": "Hurts the body",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=longpigmeal"
   },
   "cookpot:duckyouglermz": {
-    "en": "Stimulates bloomness",
     "zh": "僅沃姆伍德可食用：增加 3 點開花肥力，並額外恢復 60 點生命。",
+    "en": "Only Wormwood can eat this: grants 3 Bloom fertility and restores an additional 60 health.",
+    "source_en": "Stimulates bloomness",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=duckyouglermz"
   },
   "cookpot:eyeballspaghetti": {
-    "en": "Calls the monster",
     "zh": "食用後嘗試在約 40 單位外召出 1 隻獨眼巨鹿；當前世界已有獨眼巨鹿或找不到落點時不召出。",
+    "en": "After eating, attempts to spawn one Deerclops about 40 units away. Nothing spawns if a Deerclops already exists in the world or no valid location is found.",
+    "source_en": "Calls the monster",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=eyeballspaghetti"
   },
   "cookpot:soulstew": {
-    "en": "Stats are based on inclination",
     "zh": "僅沃拓克斯可食用：飽食 +150。善良傾向為生命 +30、理智 −25；淘氣傾向為生命 +15、理智 +25；其他傾向為生命 +30、理智 −15。",
+    "en": "Only Wortox can eat this: hunger +150. With a kind inclination: health +30, sanity -25; with a naughty inclination: health +15, sanity +25; with any other inclination: health +30, sanity -15.",
+    "source_en": "Stats are based on inclination",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=soulstew"
   },
   "cookpot:fortunecookie": {
-    "en": "Tells your fortune",
     "zh": "每次食用有 5% 機率觸發特殊命運：觸發後基礎 33% 機率為好運，生命、飽食與理智各增加 9999（受上限限制）；其餘為厄運，生命設為 20%，飽食與理智各扣 9999。好運分支機率受運氣影響；未觸發時只說出籤文。",
+    "en": "Each time it is eaten, there is a 5% chance to trigger a special fate. If triggered, the base chance of good fortune is 33%: health, hunger, and sanity each increase by 9,999, subject to their limits. Otherwise, bad fortune sets health to 20% and removes 9,999 hunger and sanity. Luck affects the chance of the good outcome. If no special fate triggers, it only gives a fortune message.",
+    "source_en": "Tells your fortune",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=fortunecookie"
   },
   "cookpot:honeyjar": {
-    "en": "Pacifies nearby bees",
     "zh": "蜜蜂不會主動以你為目標，持續 720 秒。一般蜂箱採蜜不驚動蜜蜂，並額外恢復 2 點理智。",
+    "en": "Bees will not target you on their own for 720 seconds. Harvesting a regular Bee Box does not alert the bees and restores an additional 2 sanity.",
+    "source_en": "Pacifies nearby bees",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=honeyjar"
   },
   "cookpot:watercup": {
-    "en": "Cleanses all side effects",
     "zh": "立即移除可清除的增益與減益；不會清除食物治療疲勞或沃拓克的排簫增益。也不會撤銷已發生的直接傷害或召喚。",
+    "en": "Immediately removes buffs and debuffs that can be cleared. It does not remove Food Healing Sickness or Wortox's pan flute buff, and it cannot undo damage or summons that already occurred.",
+    "source_en": "Cleanses all side effects",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=watercup"
   },
   "cookpot:poisonfrogglebunwich": {
-    "en": "Pacifies nearby frogs",
     "zh": "獲得青蛙仇恨免疫，持續 480 秒。",
+    "en": "Makes you immune to frog aggression for 480 seconds.",
+    "source_en": "Pacifies nearby frogs",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=poisonfrogglebunwich"
   },
   "cookpot:gummybeargers": {
-    "en": "Calls the monster",
     "zh": "啟用巨獸召喚設定時，食用後嘗試在約 40 單位外召出 1 隻熊獾；當前世界已有熊獾或找不到落點時不召出。",
+    "en": "If the giant-summoning option is enabled, eating this attempts to spawn one Bearger about 40 units away. Nothing spawns if a Bearger already exists in the world or no valid location is found.",
+    "source_en": "Calls the monster",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=gummybeargers"
   },
   "cookpot:gummyworms": {
-    "en": "Grants night vision",
     "zh": "提供夜視 480 秒，並將昏沉程度提高至 1.5。",
+    "en": "Grants night vision for 480 seconds and raises grogginess to at least 1.5.",
+    "source_en": "Grants night vision",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=gummyworms"
   },
   "cookpot:sea_pudding": {
-    "en": "Increases fishing yields",
     "zh": "釣到魚時額外獲得 1 條同種魚，並有基礎 33% 機率再多 1 條；持續 720 秒。池塘釣魚的額外機率受運氣影響。",
+    "en": "Whenever you catch a fish, gain one extra fish of the same kind, with a base 33% chance to gain another. Lasts 720 seconds. Luck affects the extra chance when fishing in ponds.",
+    "source_en": "Increases fishing yields",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=sea_pudding"
   },
   "cookpot:parznip_soup": {
-    "en": "Speeds digestion",
     "zh": "進食改用快速進食動作，持續 720 秒。",
+    "en": "Uses the fast eating action for 720 seconds.",
+    "source_en": "Speeds digestion",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=parznip_soup"
   },
   "cookpot:livingsandwich": {
-    "en": "Increases chopping efficiency",
     "zh": "砍倒支援的未燒毀樹木可獲額外木材，依樹種與階段決定；例如常青樹小／中／大階段額外 +1／+2／+3 木頭。持續 480 秒，伍迪為 960 秒；伍迪食用亦指定海狸變身。",
+    "en": "Felling a supported, unburned tree yields extra wood according to its species and growth stage. For example, small, medium, and large Evergreens yield 1, 2, and 3 extra Logs respectively. Lasts 480 seconds, or 960 seconds for Woodie. Eating it also forces Woodie to transform into a Werebeaver.",
+    "source_en": "Increases chopping efficiency",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=livingsandwich"
   },
   "cookpot:lunarsoup": {
-    "en": "Wards off fear and sleep",
     "zh": "清除昏沉並增加 10 點睡眠抗性；免疫理智光環、黑暗與玩家幽靈造成的理智流失，並免除魔法裝備的理智效果。持續 480 秒。",
+    "en": "Clears grogginess and grants 10 sleep resistance. Prevents sanity loss from sanity auras, darkness, and player ghosts, and negates sanity effects from magical equipment. Lasts 480 seconds.",
+    "source_en": "Wards off fear and sleep",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=lunarsoup"
   },
   "cookpot:meatwaltz": {
-    "en": "Slightly boosts inspiration",
     "zh": "僅薇格弗德：立即增加 40 點靈感。",
+    "en": "Only Wigfrid: immediately grants 40 inspiration.",
+    "source_en": "Slightly boosts inspiration",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=meatwaltz"
   },
   "cookpot:completebreakfast": {
-    "en": "Slightly boosts mightiness",
     "zh": "僅沃爾夫岡：立即增加 50 點力量值。",
+    "en": "Only Wolfgang: immediately grants 50 Mightiness.",
+    "source_en": "Slightly boosts mightiness",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=completebreakfast"
   },
   "cookpot:crabkingfeast": {
-    "en": "Increased damage to crabs",
     "zh": "對帝王蟹、帝王蟹盟友及具螃蟹標籤生物的傷害提高 50%，持續 720 秒。",
+    "en": "Increases damage dealt to the Crab King, its allies, and creatures with the crab tag by 50% for 720 seconds.",
+    "source_en": "Increased damage to crabs",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=crabkingfeast"
   },
   "cookpot:sharksushi": {
-    "en": "Increases naughtiness",
     "zh": "食用後在附近尋找生成位置並召出 1 隻坎普斯；找不到可生成位置時不會召出。",
+    "en": "After eating, attempts to spawn one Krampus at a nearby valid location. Nothing spawns if no valid location is found.",
+    "source_en": "Increases naughtiness",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=sharksushi"
   },
   "cookpot:fltsandwich": {
-    "en": "Increases planar defense",
     "zh": "位面防禦增加 10 點，持續 480 秒。",
+    "en": "Grants 10 planar defense for 480 seconds.",
+    "source_en": "Increases planar defense",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=fltsandwich"
   },
   "cookpot:trufflesgrinder": {
-    "en": "Allures pigs",
     "zh": "持續 240 秒：每秒招募半徑 12 單位內尚無主人的普通豬人（總隨從少於 10 時），並為已有豬人隨從增加 3 秒忠誠時間。魚人或怪物角色不生效。",
+    "en": "For 240 seconds, recruits nearby unowned Pig Men within a radius of 12 every second while you have fewer than 10 followers, and adds 3 seconds of loyalty to existing Pig Man followers. Does not work for Merm or monster characters.",
+    "source_en": "Allures pigs",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=trufflesgrinder"
   },
   "cookpot:sporecappie": {
-    "en": "Grants poison immunity",
     "zh": "免疫孢子毒雲，但直接攜帶的易腐食物腐敗速度乘 1.5，持續 480 秒。怪物角色食用時額外補回 20 點生命與 10 點理智；食物治療疲勞期間不補回。",
+    "en": "Grants immunity to spore poison clouds, but directly carried perishable food spoils 1.5 times as fast, for 480 seconds. Monster characters also recover an additional 20 health and 10 sanity when eating it, except during Food Healing Sickness.",
+    "source_en": "Grants poison immunity",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=sporecappie"
   },
   "cookpot:sporecap_skewers": {
-    "en": "Grants acid immunity",
     "zh": "免疫酸雨，但直接攜帶的易腐食物腐敗速度乘 1.5，持續 480 秒。怪物角色食用時額外補回 30 點生命與 20 點理智；食物治療疲勞期間不補回。",
+    "en": "Grants immunity to acid rain, but directly carried perishable food spoils 1.5 times as fast, for 480 seconds. Monster characters also recover an additional 30 health and 20 sanity when eating it, except during Food Healing Sickness.",
+    "source_en": "Grants acid immunity",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=sporecap_skewers"
   },
   "cookpot:swordfishfeast": {
-    "en": "Exquisite meal",
     "zh": "「精緻的餐點」",
+    "en": "An exquisite meal.",
+    "source_en": "Exquisite meal",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=swordfishfeast"
   },
   "cookpot:monkeyislandmeal": {
-    "en": "Breaks monkey curse",
     "zh": "立即移除最多 999 層詛咒飾品。",
+    "en": "Immediately removes up to 999 stacks of cursed trinkets.",
+    "source_en": "Breaks monkey curse",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=monkeyislandmeal"
   },
   "cookpot:brainmettersoup": {
-    "en": "Stimulates the brain",
     "zh": "製作可放入容器的物品時，基礎 10% 機率額外產生 1 個同款物品，持續 240 秒。機率受運氣影響，上限 50%；商店、交易及寄居蟹交易等配方不適用。",
+    "en": "When crafting an item that can go into a container, there is a base 10% chance to create one extra copy for 240 seconds. Luck affects the chance, up to a 50% maximum. Shop, trade, and Hermit Crab exchange recipes are excluded.",
+    "source_en": "Stimulates the brain",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=brainmettersoup"
   },
   "cookpot:chickenwings": {
-    "en": "Stimulates aggression",
     "zh": "攻擊傷害提高 30%，但受到的一般傷害也提高 35%，持續 480 秒。",
+    "en": "Increases attack damage by 30%, but also increases ordinary damage taken by 35%, for 480 seconds.",
+    "source_en": "Stimulates aggression",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=chickenwings"
   },
   "cookpot:chickenrotisserie": {
-    "en": "Decreases hunger loss",
     "zh": "飢餓自然消耗速度降低 25%，持續 480 秒。",
+    "en": "Reduces natural hunger drain by 25% for 480 seconds.",
+    "source_en": "Decreases hunger loss",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=chickenrotisserie"
   },
   "cookpot:cavetubertea": {
-    "en": "Increases plant yield",
     "zh": "採集支援植物時複製一次採集產物（保留堆疊數量）；使用收穫動作則額外取得 1 個產物，持續 480 秒。巨型作物及排除清單中的植物不適用。",
+    "en": "Picking a supported plant duplicates its harvest, including the stack size. Using a harvest action instead gives one extra item. Lasts 480 seconds. Giant crops and plants on the exclusion list do not qualify.",
+    "source_en": "Increases plant yield",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=cavetubertea"
   },
   "cookpot:mandrakepie": {
-    "en": "Soothes nearby creatures",
     "zh": "使半徑 20 單位內符合條件的生物進入催眠判定，睡眠時間參數為 10 秒；生物睡意 +7，玩家昏沉 +4。實際入睡受抗性影響，冰凍、被困或石化目標不適用。",
+    "en": "Attempts to put eligible creatures within a radius of 20 to sleep, using a 10-second sleep duration parameter. Adds 7 drowsiness to creatures and 4 grogginess to players. Actual sleep depends on resistance; frozen, trapped, or petrified targets are excluded.",
+    "source_en": "Soothes nearby creatures",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=mandrakepie"
   },
   "cookpot:rainparfait": {
-    "en": "Restores sanity when wet",
     "zh": "下雨或潮濕度 ≥50 時，每 10 秒恢復 1 點理智；效果持續 480 秒。食物治療疲勞期間不恢復。",
+    "en": "While it is raining or your wetness is at least 50, restores 1 sanity every 10 seconds. Lasts 480 seconds. Does not restore sanity during Food Healing Sickness.",
+    "source_en": "Restores sanity when wet",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=rainparfait"
   },
   "cookpot:midnightfeast": {
-    "en": "Executes creatures at night",
     "zh": "持續 480 秒：夜間每次命中有 20% 機率立即擊殺合格目標。玩家、頭目、馴化生物及切斯特／哈奇／帕奇姆等指定夥伴不適用。",
+    "en": "For 480 seconds, each hit at night has a 20% chance to instantly kill an eligible target. Players, bosses, domesticated creatures, and designated companions such as Chester, Hutch, and Packim are excluded.",
+    "source_en": "Executes creatures at night",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=midnightfeast"
   },
   "cookpot:opalpreciouscream": {
-    "en": "Grants critical attacks",
     "zh": "基礎 10% 機率造成 2.5 倍傷害（額外 +150%），持續 480 秒。暴擊機率受運氣影響，上限 40%。",
+    "en": "Has a base 10% chance to deal 2.5 times normal damage (an extra 150%) for 480 seconds. Luck affects the critical-hit chance, up to a 40% maximum.",
+    "source_en": "Grants critical attacks",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=opalpreciouscream"
   },
   "cookpot:catfishstick": {
-    "en": "Decreases luck",
     "zh": "運氣值降低 2 點，持續 480 秒。",
+    "en": "Reduces luck by 2 for 480 seconds.",
+    "source_en": "Decreases luck",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=catfishstick"
   },
   "cookpot:jawsbreaker": {
-    "en": "Allures ocean creatures",
     "zh": "可投到海上作為誘餌，吸引附近約 15 單位內的岩石大白鯊；被鯊魚吃下後約 1 秒將其擊殺。獨角鯨食用亦致死。",
+    "en": "Can be thrown into the ocean as bait to lure Rockjaw Sharks within about 15 units. Kills a shark about 1 second after it eats the bait. It is also fatal to a Gnarwail that eats it.",
+    "source_en": "Allures ocean creatures",
     "source_url": "https://heap-of-foods.com/recipes_cookpot?recipe=jawsbreaker"
   },
   "warly:bubbletea": {
-    "en": "Wards off sleep",
     "zh": "清除當前昏沉，增加 10 點睡眠抗性，持續 480 秒。",
+    "en": "Clears current grogginess and grants 10 sleep resistance for 480 seconds.",
+    "source_en": "Wards off sleep",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=bubbletea"
   },
   "warly:jellybean_sanity": {
-    "en": "Restores sanity over time",
     "zh": "每 2 秒恢復 2 點理智，持續 120 秒；食物治療疲勞期間不恢復。",
+    "en": "Restores 2 sanity every 2 seconds for 120 seconds. Does not restore sanity during Food Healing Sickness.",
+    "source_en": "Restores sanity over time",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=jellybean_sanity"
   },
   "warly:jellybean_hunger": {
-    "en": "Restores hunger over time",
     "zh": "每 2 秒恢復 2 點飽食，持續 120 秒。",
+    "en": "Restores 2 hunger every 2 seconds for 120 seconds.",
+    "source_en": "Restores hunger over time",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=jellybean_hunger"
   },
   "warly:jellybean_super": {
-    "en": "Restores all stats over time",
     "zh": "每 2 秒恢復生命、飽食、理智各 2 點，持續 120 秒；食物治療疲勞期間只恢復飽食。",
+    "en": "Restores 2 health, 2 hunger, and 2 sanity every 2 seconds for 120 seconds. During Food Healing Sickness, only hunger is restored.",
+    "source_en": "Restores all stats over time",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=jellybean_super"
   },
   "warly:berrysundae": {
-    "en": "Overheat resistance",
     "zh": "增加 120 點隔熱值，持續 240 秒。",
+    "en": "Grants 120 insulation against heat for 240 seconds.",
+    "source_en": "Overheat resistance",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=berrysundae"
   },
   "warly:milkshake_prismatic": {
-    "en": "Gives off a healthy and colorful glow",
     "zh": "身體發出彩色光芒，可照亮周圍，持續 240 秒。",
+    "en": "Makes your body glow in shifting colors, illuminating nearby areas for 240 seconds.",
+    "source_en": "Gives off a healthy and colorful glow",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=milkshake_prismatic"
   },
   "warly:tom_kha_soup": {
-    "en": "Freezing resistance",
     "zh": "增加 120 點保暖值，持續 240 秒。",
+    "en": "Grants 120 insulation against cold for 240 seconds.",
+    "source_en": "Freezing resistance",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=tom_kha_soup"
   },
   "warly:warlytea": {
-    "en": "Decreases sanity loss",
     "zh": "額外以每秒 0.75 點的速度增加理智，持續 240 秒。",
+    "en": "Provides an additional 0.75 sanity per second for 240 seconds.",
+    "source_en": "Decreases sanity loss",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=warlytea"
   },
   "warly:lazydessert": {
-    "en": "Satisfies the monster",
     "zh": "交給蟻獅作為貢品，可延後發怒 2880 秒（6 個遊戲日）。",
+    "en": "Can be offered to the Antlion to delay its anger by 2,880 seconds (six in-game days).",
+    "source_en": "Satisfies the monster",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=lazydessert"
   },
   "warly:lavaeeggboiled": {
-    "en": "Grants fire immunity",
     "zh": "火焰傷害倍率降為 0，持續 960 秒；薇洛沿用自身火焰抗性。",
+    "en": "Reduces the fire-damage multiplier to zero for 960 seconds. Willow retains her own fire resistance.",
+    "source_en": "Grants fire immunity",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=lavaeeggboiled"
   },
   "warly:tiramisu": {
-    "en": "Speeds the body and dissipates moisture",
     "zh": "提升移速 50%，持續 480 秒。另清除潮濕並保持乾燥 300 秒。",
+    "en": "Increases movement speed by 50% for 480 seconds. Also removes wetness and keeps you dry for 300 seconds.",
+    "source_en": "Speeds the body and dissipates moisture",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=tiramisu"
   },
   "warly:mandrakebaobuns": {
-    "en": "Increases healing efficiency",
     "zh": "每次符合條件的正向治療額外恢復 15 點生命，持續 480 秒。無來源標記的治療、糖豆持續回血、薇格弗德與暗影槌的吸血不觸發。",
+    "en": "Each qualifying positive heal restores an additional 15 health for 480 seconds. Healing without a source tag, ongoing healing from Jellybeans, and life steal by Wigfrid or the Shadow Maul do not trigger this effect.",
+    "source_en": "Increases healing efficiency",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=mandrakebaobuns"
   },
   "warly:bbqribs": {
-    "en": "Decreases knockback",
     "zh": "受到擊退時改為較小的落地擊退動作，持續 480 秒。",
+    "en": "Replaces knockback with a shorter landing knockback action for 480 seconds.",
+    "source_en": "Decreases knockback",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=bbqribs"
   },
   "warly:swordfishbluedinner": {
-    "en": "Grants chilled attacks",
     "zh": "持續 480 秒：連續命中同一目標 3 次，觸發半徑約 3 單位的冰晶波，對周圍合格敵人造成基礎 30 點傷害；主目標不受這次波及傷害。超過 4 秒未接續或換目標會重算，觸發冷卻 0.3 秒。",
+    "en": "For 480 seconds, hitting the same target three times in a row triggers an ice wave with a radius of about 3 units, dealing 30 base damage to nearby eligible enemies. The primary target takes no damage from the wave. The count resets after a gap of more than 4 seconds or a change of target. The trigger has a 0.3-second cooldown.",
+    "source_en": "Grants chilled attacks",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=swordfishbluedinner"
   },
   "warly:opalpreciouslollipop": {
-    "en": "Grants a random side effect",
     "zh": "隨機取得效果清單中的 1 種增益或減益，強度與時間依抽中的效果決定；再次食用會替換上次抽中的效果。另外有基礎 1% 機率立即致死，機率受運氣影響；具有賭博免死標記時不觸發此致死判定。",
+    "en": "Randomly grants one buff or debuff from its effect list; its strength and duration depend on the result. Eating another replaces the previous result. There is also a base 1% chance of instant death, modified by luck; a gambling-death-immunity tag prevents this death check.",
+    "source_en": "Grants a random side effect",
     "source_url": "https://heap-of-foods.com/recipes_warly?recipe=opalpreciouslollipop"
   },
   "keg:beer": {
-    "en": "Increases strength",
     "zh": "攻擊傷害提高 20%，同時移速降低 30%，持續 480 秒。",
+    "en": "Increases attack damage by 20% and reduces movement speed by 30% for 480 seconds.",
+    "source_en": "Increases strength",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=beer"
   },
   "keg:paleale": {
-    "en": "Increases strength",
     "zh": "攻擊傷害提高 50%，同時移速降低 30%，持續 520 秒。",
+    "en": "Increases attack damage by 50% and reduces movement speed by 30% for 520 seconds.",
+    "source_en": "Increases strength",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=paleale"
   },
   "keg:mead": {
-    "en": "Increases defense",
     "zh": "受到的一般傷害降低 1/3（約 33.3%），同時移速降低 30%，持續 480 秒。",
+    "en": "Reduces ordinary damage taken by one-third (about 33.3%) and reduces movement speed by 30% for 480 seconds.",
+    "source_en": "Increases defense",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=mead"
   },
   "keg:teagreen": {
-    "en": "Restores sanity over time",
     "zh": "每 2 秒恢復 2 點理智，持續 120 秒；食物治療疲勞期間不恢復。",
+    "en": "Restores 2 sanity every 2 seconds for 120 seconds. Does not restore sanity during Food Healing Sickness.",
+    "source_en": "Restores sanity over time",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=teagreen"
   },
   "keg:teared": {
-    "en": "Restores health over time",
     "zh": "每 2 秒恢復 2 點生命，持續 120 秒。",
+    "en": "Restores 2 health every 2 seconds for 120 seconds.",
+    "source_en": "Restores health over time",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=teared"
   },
   "keg:piraterum": {
-    "en": "Increased damage to pirates",
     "zh": "對具海盜標籤的敵人傷害提高 50%，持續 720 秒。",
+    "en": "Increases damage dealt to enemies with the pirate tag by 50% for 720 seconds.",
+    "source_en": "Increased damage to pirates",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=piraterum"
   },
   "keg:twistedtequila": {
-    "en": "Twists the spacetime",
     "zh": "食用後傳送至隨機位置，昏沉程度提高至 1.5。",
+    "en": "Teleports you to a random location after eating and raises grogginess to at least 1.5.",
+    "source_en": "Twists the spacetime",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=twistedtequila"
   },
   "keg:nukacola_quantum": {
-    "en": "Gives off a healthy glow",
     "zh": "身體發光並照亮周圍，持續 960 秒。另有基礎 5% 機率取得 1 個瓶蓋，機率受運氣影響。",
+    "en": "Makes your body glow and illuminate nearby areas for 960 seconds. Also has a base 5% chance to give one Bottle Cap, modified by luck.",
+    "source_en": "Gives off a healthy glow",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola_quantum"
   },
   "keg:nukacola_dark": {
-    "en": "Increases max health",
     "zh": "生命上限增加 30，持續 480 秒。另有基礎 5% 機率取得 1 個瓶蓋，機率受運氣影響。",
+    "en": "Increases maximum health by 30 for 480 seconds. Also has a base 5% chance to give one Bottle Cap, modified by luck.",
+    "source_en": "Increases max health",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola_dark"
   },
   "keg:nukacola_twist": {
-    "en": "Increases max stats",
     "zh": "生命、飽食與理智上限各增加 15，持續 480 秒。另有基礎 5% 機率取得 1 個瓶蓋，機率受運氣影響。",
+    "en": "Increases maximum health, hunger, and sanity by 15 each for 480 seconds. Also has a base 5% chance to give one Bottle Cap, modified by luck.",
+    "source_en": "Increases max stats",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola_twist"
   },
   "keg:nukacola_bramble": {
-    "en": "Grants thorns defense",
     "zh": "受攻擊時釋放半徑約 3 單位的荊棘波，對合格敵人造成基礎約 22.67 點傷害，觸發冷卻 0.3 秒；持續 480 秒。另有基礎 5% 機率取得瓶蓋，機率受運氣影響。",
+    "en": "When attacked, releases a thorn wave with a radius of about 3 units, dealing about 22.67 base damage to eligible enemies. The trigger has a 0.3-second cooldown and lasts 480 seconds. Also has a base 5% chance to give a Bottle Cap, modified by luck.",
+    "source_en": "Grants thorns defense",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukacola_bramble"
   },
   "keg:nukashine": {
-    "en": "Grants night vision and may cause blackouts",
     "zh": "提供夜視、攻擊傷害 +50%、移速 −30%，並額外每分鐘流失約 1.33 點理智；持續 520 秒。效果移除時觸發斷片傳送。",
+    "en": "Grants night vision and 50% more attack damage, reduces movement speed by 30%, and drains about 1.33 sanity per minute. Lasts 520 seconds. When the effect ends, it triggers a blackout teleport.",
+    "source_en": "Grants night vision and may cause blackouts",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=nukashine"
   },
   "keg:ricesake": {
-    "en": "Increases defense",
     "zh": "受到的一般傷害降低 1/3（約 33.3%），同時移速降低 30%，持續 480 秒。",
+    "en": "Reduces ordinary damage taken by one-third (about 33.3%) and reduces movement speed by 30% for 480 seconds.",
+    "source_en": "Increases defense",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=ricesake"
   },
   "keg:coffee_mocha": {
-    "en": "Speeds the body and decreases hunger loss",
     "zh": "提升移速 50%，持續 480 秒。同時飢餓消耗降低 25%，並增加 10 點睡眠抗性。",
+    "en": "Increases movement speed by 50% for 480 seconds. Also reduces hunger drain by 25% and grants 10 sleep resistance.",
+    "source_en": "Speeds the body and decreases hunger loss",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=coffee_mocha"
   },
   "keg:toadstoolcola": {
-    "en": "Increased damage to amphibians",
     "zh": "對魚人、青蛙與毒菌蟾蜍的傷害提高 100%，持續 960 秒。",
+    "en": "Increases damage dealt to Merms, Frogs, and Toadstool by 100% for 960 seconds.",
+    "source_en": "Increased damage to amphibians",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=toadstoolcola"
   },
   "keg:souljuice": {
-    "en": "Stats are based on inclination and Increases Soul yield",
     "zh": "僅沃拓克斯可食用：飽食 +100；善良傾向生命 +40、理智 −30，淘氣傾向生命 +20、理智 +30，其他傾向生命 +40、理智 +20。另持續 480 秒，沃拓克被判定為靈魂來源時，包括殺死背包內生物，目標的靈魂產量 +1；食物治療疲勞期間不執行生命與理智變化。",
+    "en": "Only Wortox can eat this: hunger +100. With a kind inclination: health +40, sanity -30; with a naughty inclination: health +20, sanity +30; with any other inclination: health +40, sanity +20. For the next 480 seconds, when Wortox is recognized as a soul source, targets yield one extra soul, including creatures killed inside an inventory. Health and sanity changes do not apply during Food Healing Sickness.",
+    "source_en": "Stats are based on inclination and Increases Soul yield",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=souljuice"
   },
   "keg:lunartequila": {
-    "en": "Enlightens the mind",
     "zh": "強制進入啟蒙狀態，持續 480 秒。",
+    "en": "Forces enlightenment for 480 seconds.",
+    "source_en": "Enlightens the mind",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=lunartequila"
   },
   "keg:mimicmosa": {
-    "en": "Hides your presence",
     "zh": "隱匿存在，持續 480 秒；攻擊或投擲會暫時解除隱匿，10 秒後恢復。亦有不觸發陷阱及不驚嚇獵物的標記。",
+    "en": "Conceals your presence for 480 seconds. Attacking or throwing temporarily breaks concealment, which returns after 10 seconds. Also grants tags that prevent triggering traps and startling prey.",
+    "source_en": "Hides your presence",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=mimicmosa"
   },
   "keg:wine_glowberry": {
-    "en": "Gives off a healthy glow",
     "zh": "身體發光並照亮周圍，持續 960 秒。",
+    "en": "Makes your body glow and illuminate nearby areas for 960 seconds.",
+    "source_en": "Gives off a healthy glow",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_glowberry"
   },
   "keg:wine_nightberry": {
-    "en": "Grants night vision",
     "zh": "提供夜視 480 秒，並將昏沉程度提高至 1.5。",
+    "en": "Grants night vision for 480 seconds and raises grogginess to at least 1.5.",
+    "source_en": "Grants night vision",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=wine_nightberry"
   },
   "keg:juice_mooncap": {
-    "en": "Wards off sleep",
     "zh": "清除當前昏沉，增加 10 點睡眠抗性，持續 480 秒。",
+    "en": "Clears current grogginess and grants 10 sleep resistance for 480 seconds.",
+    "source_en": "Wards off sleep",
     "source_url": "https://heap-of-foods.com/recipes_keg?recipe=juice_mooncap"
   },
   "jar:mayonnaise": {
-    "en": "Restores hunger over time",
     "zh": "每 2 秒恢復 2 點飽食，持續 120 秒。",
+    "en": "Restores 2 hunger every 2 seconds for 120 seconds.",
+    "source_en": "Restores hunger over time",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=mayonnaise"
   },
   "jar:mayonnaise_chicken": {
-    "en": "Restores hunger over time",
     "zh": "每 2 秒恢復 2 點飽食，持續 120 秒。",
+    "en": "Restores 2 hunger every 2 seconds for 120 seconds.",
+    "source_en": "Restores hunger over time",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=mayonnaise_chicken"
   },
   "jar:mayonnaise_tallbird": {
-    "en": "Restores hunger over time",
     "zh": "每 2 秒恢復 2 點飽食，持續 120 秒。",
+    "en": "Restores 2 hunger every 2 seconds for 120 seconds.",
+    "source_en": "Restores hunger over time",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=mayonnaise_tallbird"
   },
   "jar:mayonnaise_nightmare": {
-    "en": "Decreases sanity over time",
     "zh": "每 2 秒失去 10 點理智，持續 120 秒。",
+    "en": "Loses 10 sanity every 2 seconds for 120 seconds.",
+    "source_en": "Decreases sanity over time",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=mayonnaise_nightmare"
   },
   "jar:tartarsauce": {
-    "en": "Restores hunger over time",
     "zh": "每 2 秒恢復 2 點飽食，持續 120 秒。",
+    "en": "Restores 2 hunger every 2 seconds for 120 seconds.",
+    "source_en": "Restores hunger over time",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=tartarsauce"
   },
   "jar:agedroe_oceanfish_sturgeon": {
-    "en": "Exquisite meal",
     "zh": "「精緻的餐點」",
+    "en": "An exquisite meal.",
+    "source_en": "Exquisite meal",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_sturgeon"
   },
   "jar:jelly_glowberry": {
-    "en": "Gives off a healthy glow",
     "zh": "身體發光並照亮周圍，持續 960 秒。",
+    "en": "Makes your body glow and illuminate nearby areas for 960 seconds.",
+    "source_en": "Gives off a healthy glow",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_glowberry"
   },
   "jar:jelly_nightberry": {
-    "en": "Grants night vision",
     "zh": "提供夜視 480 秒，並將昏沉程度提高至 1.5。",
+    "en": "Grants night vision for 480 seconds and raises grogginess to at least 1.5.",
+    "source_en": "Grants night vision",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=jelly_nightberry"
   },
   "jar:pickles_mooncap": {
-    "en": "Wards off sleep",
     "zh": "清除當前昏沉，增加 10 點睡眠抗性，持續 480 秒。",
+    "en": "Clears current grogginess and grants 10 sleep resistance for 480 seconds.",
+    "source_en": "Wards off sleep",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_mooncap"
   },
   "jar:pickles_sporecap": {
-    "en": "Grants poison immunity",
     "zh": "免疫孢子毒雲，持續 720 秒。怪物角色食用時額外補回 20 點生命與 20 點理智；食物治療疲勞期間不補回。",
+    "en": "Grants immunity to spore poison clouds for 720 seconds. Monster characters also recover an additional 20 health and 20 sanity when eating it, except during Food Healing Sickness.",
+    "source_en": "Grants poison immunity",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_sporecap"
   },
   "jar:pickles_sporecap_dark": {
-    "en": "Grants acid immunity",
     "zh": "免疫酸雨，持續 720 秒。怪物角色食用時額外補回 30 點生命與 30 點理智；食物治療疲勞期間不補回。",
+    "en": "Grants immunity to acid rain for 720 seconds. Monster characters also recover an additional 30 health and 30 sanity when eating it, except during Food Healing Sickness.",
+    "source_en": "Grants acid immunity",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_sporecap_dark"
   },
   "jar:agedroe_oceanfish_pufferfish": {
-    "en": "May be poisonous",
     "zh": "每次食用有基礎 33% 機率立即致死（扣除當前全部生命）；機率受運氣影響，不是固定時間的中毒扣血。",
+    "en": "Each time it is eaten, there is a base 33% chance of instant death (removing all current health). Luck affects this chance. This is not poison damage over time.",
+    "source_en": "May be poisonous",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_pufferfish"
   },
   "jar:agedroe_oceanfish_midnight_carp": {
-    "en": "Wards off darkness",
     "zh": "免疫黑暗中的查理攻擊，並免除光照不足造成的理智流失，持續 480 秒；不提供照明或夜視。",
+    "en": "Prevents Charlie's attacks in darkness and sanity loss from insufficient light for 480 seconds. Does not provide light or night vision.",
+    "source_en": "Wards off darkness",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_midnight_carp"
   },
   "jar:agedroe_jellyfish_rainbow": {
-    "en": "Gives off a healthy and colorful glow",
     "zh": "身體發出彩色光芒，可照亮周圍，持續 240 秒，不是持續回血。",
+    "en": "Makes your body glow in shifting colors, illuminating nearby areas for 240 seconds. Does not provide ongoing healing.",
+    "source_en": "Gives off a healthy and colorful glow",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_jellyfish_rainbow"
   }
 }

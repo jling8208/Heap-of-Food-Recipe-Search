@@ -43,8 +43,7 @@
 | `import_mod_names.py` | 從本機 Heap of Foods 模組更新上述名稱表 |
 | `recipes.json` | 原有烹飪鍋資料（保留人工修改） |
 | `recipes-warly.json` / `recipes-keg.json` / `recipes-jar.json` | 三個新增設備的食譜 |
-| `side-effects.json` | 以「設備 ID:料理 ID」索引的詳細中文效果、原站簡短英文與來源 |
-| `side-effects-en.json` | 逐項對應詳細中文效果的完整英文翻譯 |
+| `side-effects.json` | 以「設備 ID:料理 ID」索引的詳細中英文效果、原站簡短英文與來源 |
 | `ingredient-labels-extra.json` | 新食材的補充翻譯；同名項目以原有名稱表為準 |
 | `build_data.py` | 將 JSON 轉為網頁使用的資料 |
 | `data.js` | 生成的網頁資料，需與 JSON 一起更新 |
@@ -87,7 +86,7 @@ Require 選項取自 `requires[].items`，Exclude 選項取自 `excluded[].items
 
 - [逐項中文查證紀錄](SIDE-EFFECTS-AUDIT.md)：說明、差異與來源路徑。
 - [來源行號與 SHA-256](sources/side-effects-audit-2026-11-11.json)：記錄版本、常數與 80 個來源檔案的指紋。
-- 修改中文效果時編輯 `side-effects.json` 對應項目的 `zh`；修改完整英文譯文時編輯 `side-effects-en.json` 相同 ID 的文字，然後執行 `python build_data.py`。建置程式會用 `.data-build.sha256` 檢查整份 `data.js` 是否在上次建置後被手動修改；若有，會停止，不會覆蓋。正常重建前也會把舊版存進 `data-build-backups/`。若修正了查證結論，也需同步更新查證紀錄。
+- 修改效果時，編輯 `side-effects.json` 對應項目的 `zh`（詳細中文）或 `en`（完整英文翻譯），再執行 `python build_data.py`。`source_en` 保留原網站的簡短英文標籤，供查證與搜尋。建置程式會用 `.data-build.sha256` 檢查整份 `data.js` 是否在上次建置後被手動修改；若有，會停止，不會覆蓋。正常重建前也會把舊版存進 `data-build-backups/`。若修正了查證結論，也需同步更新查證紀錄。
 - 執行 `node tests/effects.test.cjs` 可檢查效果資料、生成結果與查證紀錄是否同步。
 
 模組或遊戲更新後，可用 Python 標準函式庫確認來源是否變動：
