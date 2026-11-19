@@ -17,6 +17,20 @@
 - 來源中的 spoiler 表示加速腐敗，不是保鮮。
 - 原站有部分趣味描述，無對應食用增益者明確註明；不自行補數值。
 
+## 食譜數值勘誤（非 Side Effect）
+
+### cookpot:gorge_grilled_cheese（Grilled Cheese／烤奶酪）
+
+這道料理沒有額外副作用（`debuff = false`）。修正前，搜尋網頁的數值與目前安裝的 Heap of Foods 7.9-B 模組食譜不同：
+
+| 數值 | 修正前搜尋網頁 | 模組食譜／修正後搜尋網頁 |
+| --- | ---: | ---: |
+| 生命值 | +60 | +40 |
+| 飽食度 | +56.25 | +32.5 |
+| 理智值 | +40 | +15 |
+
+模組的 `scripts/hof_foodrecipes.lua:1038–1053` 明確設定 `health = 40`、`hunger = 32.5`、`sanity = 15`。2026-11-19 已同步修正本專案的 `recipes.json` 與 `data.js`；玩家吃下後回復 40 生命值，與模組設定一致。[原站食譜頁](https://heap-of-foods.com/recipes_cookpot?recipe=gorge_grilled_cheese)的內容不受本專案修改影響。
+
 ## 逐項結果
 
 ### cookpot:coffee
