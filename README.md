@@ -37,14 +37,13 @@
 
 | 檔案 | 用途 |
 | --- | --- |
-| `ingredient-labels.json` | 已校正的食材與類別中文名稱 |
+| `ingredient-labels.json` | 食材與類別的中文名稱，包含後續新增食材 |
 | `recipe-names-zht.json` | 從模組匯入的繁中料理名稱，覆蓋四種設備的全部食譜 |
 | `ingredient-labels-en.json` | 從模組匯入的英文食材名稱 |
 | `import_mod_names.py` | 從本機 Heap of Foods 模組更新上述名稱表 |
 | `recipes.json` | 原有烹飪鍋資料（保留人工修改） |
 | `recipes-warly.json` / `recipes-keg.json` / `recipes-jar.json` | 三個新增設備的食譜 |
 | `side-effects.json` | 以「設備 ID:料理 ID」索引的詳細中英文效果、原站簡短英文與來源 |
-| `ingredient-labels-extra.json` | 新食材的補充翻譯；同名項目以原有名稱表為準 |
 | `build_data.py` | 將 JSON 轉為網頁使用的資料 |
 | `data.js` | 生成的網頁資料，需與 JSON 一起更新 |
 | `app.js` / `engine.js` | 介面互動／篩選邏輯 |

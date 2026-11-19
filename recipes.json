@@ -4542,9 +4542,9 @@
     "temperatureDuration": null,
     "debuff": false,
     "nospice": false,
-    "health": 60,
-    "hunger": 56.25,
-    "sanity": 40,
+    "health": 40,
+    "hunger": 32.5,
+    "sanity": 15,
     "cooktime": 0.5,
     "stacksize": null,
     "pigcoinvalue": [

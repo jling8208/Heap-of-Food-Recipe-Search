@@ -49,7 +49,6 @@ def main():
     (ROOT / "recipe-names-zht.json").write_text(json.dumps(recipe_names, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     ingredient_ids = set(json.loads((ROOT / "ingredient-labels.json").read_text(encoding="utf-8")))
-    ingredient_ids |= set(json.loads((ROOT / "ingredient-labels-extra.json").read_text(encoding="utf-8")))
     vanilla = vanilla_names_in(args.game_scripts) if args.game_scripts else {}
     ingredient_names = {key: en.get(key, vanilla[key] if key in vanilla else "") for key in sorted(ingredient_ids & (en.keys() | vanilla.keys()))}
     ingredient_names.update({"tag_chickenegg": "Chicken Egg", "tag_spotspice": "Spot Spice"})

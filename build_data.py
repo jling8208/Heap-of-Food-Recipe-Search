@@ -25,7 +25,7 @@ def write_protected_data(previous,manifest,backup_dir,new_bytes):
  if old_bytes!=new_bytes:previous.write_bytes(new_bytes)
  manifest.write_text(hashlib.sha256(new_bytes).hexdigest()+'\n',encoding='ascii')
 def main():
- labels=read('ingredient-labels-extra.json');labels.update(read('ingredient-labels.json'))
+ labels=read('ingredient-labels.json')
  english_labels=read('ingredient-labels-en.json')
  recipe_names_zh=read('recipe-names-zht.json')
  effects=read('side-effects.json');recipes=[];stations=[]

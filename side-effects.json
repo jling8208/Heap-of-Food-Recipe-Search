@@ -540,20 +540,20 @@
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=pickles_sporecap_dark"
   },
   "jar:agedroe_oceanfish_pufferfish": {
-    "zh": "每次食用有基礎 33% 機率立即致死（扣除當前全部生命）；機率受運氣影響，不是固定時間的中毒扣血。",
-    "en": "Each time it is eaten, there is a base 33% chance of instant death (removing all current health). Luck affects this chance. This is not poison damage over time.",
+    "zh": "每次食用有基礎 33% 機率立即致死（扣除當前全部生命）；機率受運氣影響。",
+    "en": "Each time it is eaten, there is a base 33% chance of instant death (removing all current health). Luck affects this chance.",
     "source_en": "May be poisonous",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_pufferfish"
   },
   "jar:agedroe_oceanfish_midnight_carp": {
-    "zh": "免疫黑暗中的查理攻擊，並免除光照不足造成的理智流失，持續 480 秒；不提供照明或夜視。",
-    "en": "Prevents Charlie's attacks in darkness and sanity loss from insufficient light for 480 seconds. Does not provide light or night vision.",
+    "zh": "免疫黑暗中的查理攻擊，並免除光照不足造成的理智流失，持續 480 秒。",
+    "en": "Prevents Charlie's attacks in darkness and sanity loss from insufficient light for 480 seconds.",
     "source_en": "Wards off darkness",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_oceanfish_midnight_carp"
   },
   "jar:agedroe_jellyfish_rainbow": {
-    "zh": "身體發出彩色光芒，可照亮周圍，持續 240 秒，不是持續回血。",
-    "en": "Makes your body glow in shifting colors, illuminating nearby areas for 240 seconds. Does not provide ongoing healing.",
+    "zh": "身體發出彩色光芒，可照亮周圍，持續 240 秒。",
+    "en": "Makes your body glow in shifting colors, illuminating nearby areas for 240 seconds.",
     "source_en": "Gives off a healthy and colorful glow",
     "source_url": "https://heap-of-foods.com/recipes_jar?recipe=agedroe_jellyfish_rainbow"
   }
